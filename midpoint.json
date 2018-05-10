@@ -1,0 +1,32 @@
+{
+	"coutry": "Ukraine",
+    "city": "Kiev",
+    "coordinates": {
+        "work": {
+            "latitude": 50.454254,
+            "longitude": 30.44543
+        },
+        "study": {
+            "latitude": 50.450422,
+            "longitude": 30.465808
+        },
+        "check-ins": [
+            {
+                "latitude": 50.446898,
+                "longitude": 30.526198
+            },
+            {
+                "latitude": 50.421093,
+                "longitude": 30.521306
+            },
+            {
+                "latitude": 50.404685,
+                "longitude": 30.518388
+            }
+        ]
+    },
+    "preferences": {
+        "if_city": 1,
+        "if_near_subway": 1
+    }
+}
