@@ -1,8 +1,19 @@
 from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
 import numpy as np
-
+import os
 
 app = Flask(__name__)
+
+# export APP_SETTINGS=config.ProductionConfig
+# export APP_SETTINGS=config.DevelopmentConfig
+# export APP_SETTINGS=config.TestingConfig
+app.config.from_object(os.environ['APP_SETTINGS'])
+# suppress warning
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+# to help Alembic detect changes in models
+import models
 
 
 def midpoint(json_data):
@@ -28,3 +39,4 @@ def main():
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port='3210')
+    db.init_app(app)
