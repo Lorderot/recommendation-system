@@ -1,4 +1,5 @@
 from server import db
+from sqlalchemy import inspect
 
 
 class BaseModel(db.Model):
@@ -10,18 +11,12 @@ class BaseModel(db.Model):
 
     def __repr__(self):
         """Define a base way to print models"""
-        return '%s(%s)' % (self.__class__.__name__, {
-            column: value
-            for column, value in self._to_dict().items()
-        })
+        return '%s%s' % (self.__class__.__name__,
+                         self.json())
 
     def json(self):
-        """
-                Define a base way to jsonify models, dealing with datetime objects
-        """
-        return {
-            column: value for column, value in self._to_dict().items()
-        }
+        return {c.key: getattr(self, c.key)
+                for c in inspect(self).mapper.column_attrs}
 
 
 class Apartment(BaseModel):

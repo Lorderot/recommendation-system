@@ -11,8 +11,9 @@ app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
 # suppress warning
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_POOL_SIZE'] = 10
 db = SQLAlchemy(app)
-# to help Alembic detect changes in models
+# to help Alembic detect changes in models. Depends on db object
 import models
 
 
@@ -31,6 +32,8 @@ def midpoint(json_data):
 
 @app.route('/api/destination', methods=['GET', 'POST'])
 def main():
+    # to get all apartments uncomment the following code
+    # db.session.query(models.Apartment).all()
     if request.method == 'POST':
         return midpoint(request.get_json())
     else:
@@ -38,5 +41,5 @@ def main():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port='3210')
+    app.run(host='127.0.0.1', port=3210)
     db.init_app(app)
