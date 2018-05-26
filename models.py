@@ -16,20 +16,38 @@ class BaseModel(db.Model):
 
     def json(self):
         return {c.key: getattr(self, c.key)
-                for c in inspect(self).mapper.column_attrs}
+                for c in inspect(self).mapper.Column_attrs}
 
 
 class Apartment(BaseModel):
     """ Model for apartments table """
     __tablename__ = 'tb_apartments'
     id = db.Column("tb_apartment_id", db.Integer, primary_key=True, autoincrement=True, nullable=False, unique=True)
-    mslApartmentId = db.Column("mls_apartment_id", db.Integer, nullable=False, unique=True, index=True)
-    longitude = db.Column("longitude", db.Float, nullable=False)
-    latitude = db.Column("latitude", db.Float, nullable=False)
-    city = db.Column("city", db.String, nullable=False)
-    cityRegion = db.Column("city_region", db.String)
-    price = db.Column("price", db.Float, nullable=False)
-    distanceToBus = db.Column("distance_to_bus", db.Float)
-    distanceToSchool = db.Column("distance_to_school", db.Float)
-    distanceToSchoolBus = db.Column("distance_to_school_bus", db.Float)
-    distanceToShopping = db.Column("distance_to_shopping", db.Float)
+    city = db.Column('city', db.String, nullable=True)
+    city_region = db.Column('city_region', db.String, nullable=True)
+    country = db.Column('country', db.String, nullable=True)
+    picture_url = db.Column('picture_url', db.String, nullable=True)
+    price = db.Column('price', db.Float, nullable=True)
+    coords = db.Column('coords', db.String, nullable=True)
+    address = db.Column('address', db.String, nullable=True)
+    is_near_cinema = db.Column('is_near_cinema', db.Integer, nullable=True)
+    dist_to_closest_cinema = db.Column('dist_to_closest_cinema', db.Float, nullable=True)
+    num_of_cinemas = db.Column('num_of_cinemas', db.Integer, nullable=True)
+    is_near_cafe = db.Column('is_near_cafe', db.Integer, nullable=True)
+    dist_to_closest_cafe = db.Column('dist_to_closest_cafe', db.Float, nullable=True)
+    num_of_cafes = db.Column('num_of_cafes', db.Integer, nullable=True)
+    is_near_pub = db.Column('is_near_pub', db.Integer, nullable=True)
+    dist_to_closest_pub = db.Column('dist_to_closest_pub', db.Float, nullable=True)
+    num_of_pubs = db.Column('num_of_pubs', db.Integer, nullable=True)
+    is_near_restaurant = db.Column('is_near_restaurant', db.Integer, nullable=True)
+    dist_to_closest_restaurant = db.Column('dist_to_closest_restaurant', db.Float, nullable=True)
+    num_of_restaurants = db.Column('num_of_restaurants', db.Integer, nullable=True)
+    is_near_park = db.Column('is_near_park', db.Integer, nullable=True)
+    dist_to_closest_park = db.Column('dist_to_closest_park', db.Float, nullable=True)
+    num_of_parks = db.Column('num_of_parks', db.Integer, nullable=True)
+    is_near_railway_station = db.Column('is_near_railway_station', db.Integer, nullable=True)
+    dist_to_closest_railway_station = db.Column('dist_to_closest_railway_station', db.Float, nullable=True)
+    num_of_railway_stations = db.Column('num_of_railway_stations', db.Integer, nullable=True)
+    is_near_highway = db.Column('is_near_highway', db.Integer, nullable=True)
+    dist_to_closest_highway = db.Column('dist_to_closest_highway', db.Float, nullable=True)
+    num_of_highways = db.Column('num_of_highways', db.Integer, nullable=True)
