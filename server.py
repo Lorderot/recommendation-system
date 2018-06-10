@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 import numpy as np
 import os
+import pandas as pd
+from get_real_estate import get_real_estate
 
 app = Flask(__name__)
 
@@ -17,27 +19,25 @@ db = SQLAlchemy(app)
 import models
 
 
-def midpoint(json_data):
-    geolocations = [v for k, v in json_data['coordinates'].items() if (k in ['work', 'study']) & bool(v)]
-    geolocations.extend(json_data['coordinates']['check-ins'])
-    if geolocations:
-        resp = {
-            'latitude': np.mean([float(geoloc['latitude']) for geoloc in geolocations]),
-            'longitude': np.mean([float(geoloc['longitude']) for geoloc in geolocations])
-        }
-    else:
-        resp = {}
-    return jsonify(resp)
+
+DATA = pd.read_sql_query('select * from tb_apartments', os.environ['DEV_DATABASE_URL']).set_index('tb_apartment_id')
 
 
-@app.route('/api/destination', methods=['GET', 'POST'])
-def main():
-    # to get all apartments uncomment the following code
-    # db.session.query(models.Apartment).all()
+# @app.route('/api/destination/dev', methods=['GET', 'POST'])
+# def dev():
+#     # to get all apartments uncomment the following code
+#     # db.session.query(models.Apartment).all()
+#     if request.method == 'POST':
+#         return midpoint(request.get_json())
+#     else:
+#         return 'Real estate filtrator [DEV]'
+
+@app.route('/api/destination/prod', methods=['GET', 'POST'])
+def prod():
     if request.method == 'POST':
-        return midpoint(request.get_json())
+        return get_real_estate(DATA, request.get_json())
     else:
-        return 'Geolocations midpoint calculator'
+        return 'Real estate filtrator [PROD]'
 
 
 if __name__ == '__main__':

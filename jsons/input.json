@@ -1,0 +1,23 @@
+{
+    "Country": "USA",
+    "City": "San Diego",
+	"Work": "6435 Ambrosia Dr, San Diego",
+	"Study": "9966 San Diego Mission Rd, San Diego",
+    "Coordinates": [
+        {
+            "Latitude": 32.77827388, 
+            "Longitude": -117.11803370000001
+        },
+        {
+            "Latitude": 32.77509351, 
+            "Longitude": -117.06110859999998
+        },
+        {
+            "Latitude": 32.7686309, 
+            "Longitude": -117.1097226
+        }
+    ],
+    "InCity": true,
+	"PetsToWalkPresence": false,
+	"AmountOfPeopleLiving": 3
+}

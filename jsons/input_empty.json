@@ -1,0 +1,11 @@
+{
+    "Country": "USA",
+    "City": "San Diego",
+	"Work": "6435 Ambrosia Dr, San Diego",
+	"Study": null,
+    "Coordinates": [
+    ],
+    "InCity": true,
+	"PetsToWalkPresence": false,
+	"AmountOfPeopleLiving": 3
+}
