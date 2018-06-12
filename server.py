@@ -20,8 +20,8 @@ import models
 
 
 
-DATA = pd.read_sql_query('select * from tb_apartments', os.environ['DEV_DATABASE_URL']).set_index('tb_apartment_id')
-
+#DATA = pd.read_sql_query('select * from tb_apartments', os.environ['DEV_DATABASE_URL']).set_index('tb_apartment_id')
+DATA = pd.read_excel(r'C:\Users\machine\PycharmProjects\real_estate_recommender\main_data.xlsx').set_index('tb_apartment_id')
 
 # @app.route('/api/destination/dev', methods=['GET', 'POST'])
 # def dev():

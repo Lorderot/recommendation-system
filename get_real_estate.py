@@ -17,6 +17,10 @@ CITY_CENTERS = {
         'Longitude': -122.431297,
     }
 }
+CITY_AVG_SPEED = {
+    'SAN DIEGO': 46.67098,
+    'SAN FRANCISCO': 28.96819
+}
 SQR_METERS_PER_PERSON = 150.
 
 
@@ -47,9 +51,34 @@ def midpoint(json_data):
     geolocs.extend(json_data['Coordinates'])
     valid_coords = [loc for loc in geolocs if coords_validation(loc['Latitude'], loc['Longitude'], json_data['City'])]
     if valid_coords:
-        resp = {'center_' + k.lower(): np.mean([loc[k] for loc in valid_coords]) for k in ['Latitude', 'Longitude']}
+        resp = {
+            'Center_' + ('lat' if k == 'Latitude' else 'long'): np.mean(
+                [loc[k] for loc in valid_coords]) for k in ['Latitude', 'Longitude']
+        }
     else:
-        resp = {'center_' + k.lower(): v for k, v in CITY_CENTERS.get(json_data['City'].upper(), {}).items()}
+        resp = {
+            'Center_' + ('lat' if k == 'Latitude' else 'long'): v for k, v in CITY_CENTERS.get(
+            json_data['City'].upper(), {}).items()
+        }
+    resp['Profits'] = {}
+    if bool(json_data['Work']) & (json_data['Work'] in valid_coords):
+        resp['Profits']['Work_distance'] = distance.distance(
+            Point(json_data['Work']['Latitude'], json_data['Work']['Longitude']),
+            Point(resp['Center_lat'], resp['Center_long'])).km
+        resp['Profits']['Work_time'] = (resp['Profits']['Work_distance'] / CITY_AVG_SPEED.get(
+            json_data['City'].upper(), CITY_AVG_SPEED['SAN DIEGO']) * 60.)
+    else:
+        resp['Profits']['Work_distance'] = np.nan
+        resp['Profits']['Work_time'] = np.nan
+    if bool(json_data['Study']) & (json_data['Study'] in valid_coords):
+        resp['Profits']['Study_distance'] = distance.distance(
+            Point(json_data['Study']['Latitude'], json_data['Study']['Longitude']),
+            Point(resp['Center_lat'], resp['Center_long'])).km
+        resp['Profits']['Study_time'] = (resp['Profits']['Study_distance'] / CITY_AVG_SPEED.get(
+            json_data['City'].upper(), CITY_AVG_SPEED['SAN DIEGO']) * 60.)
+    else:
+        resp['Profits']['Study_distance'] = np.nan
+        resp['Profits']['Study_time'] = np.nan
     return resp
 
 
@@ -66,24 +95,36 @@ def get_real_estate(RE_DF, json_data, N_best=500):
 
     sub_df['dist_to_center'] = sub_df[['latitude', 'longitude']].apply(
         lambda x: distance.distance(Point(x['latitude'], x['longitude']),
-                                    Point(resp_dict['center_latitude'], resp_dict['center_longitude'])).km
+                                    Point(resp_dict['Center_lat'], resp_dict['Center_long'])).km
         if x.notnull().all() else np.NaN, axis=1)
 
-    target_cols = [
-        'latitude', 'longitude', 'price', 'picture_url', 'size_square_feet', 'dist_to_center',
-    ]
+    target_to_rename = {
+        'latitude': 'Lat',
+        'longitude': 'Long',
+        'address': 'Address',
+        'picture_url': 'Image_url',
+        'size_square_feet': 'Area',
+        'price': 'Price',
+        'leasing_available': 'Leasing_available',
+        'dist_to_center': 'Distance_to_center',
+        'profits': 'Profits'
+    }
+    target_cols = [col for col in target_to_rename.keys() if col != 'profits']
 
-    extra_cols = [
-        'num_of_cafes', 'num_of_cinemas', 'num_of_highways', 'num_of_parks',
-        'num_of_pubs', 'num_of_railway_stations', 'num_of_restaurants'
-    ]
+    feature_to_rename = {
+        'num_of_cafes_rests': 'Cafe_nearby',
+        'num_of_cinemas': 'Cinema_nearby',
+        'num_of_highways': 'Highway_nearby',
+        'num_of_parks': 'Park_nearby'
+    }
+    feature_cols = list(feature_to_rename.keys())
 
-    best_RE = sub_df[target_cols + extra_cols].sort_values(by=['dist_to_center'], ascending=1).iloc[:N_best]
+    best_RE = sub_df[target_cols + feature_cols].sort_values(by=['dist_to_center'], ascending=1).iloc[:N_best]
 
-    best_RE['profits'] = best_RE[extra_cols].apply(
-        lambda x: [col[7:-1].replace('_', ' ').title() for col in extra_cols if x[col] > 0], axis=1)
+    best_RE['profits'] = best_RE[feature_cols].rename(columns=feature_to_rename).apply(
+        lambda x: x.astype(bool).to_dict(), axis=1)
 
-    best_RE = best_RE[target_cols + ['profits']]
+    best_RE = best_RE[target_cols + ['profits']].rename(columns=target_to_rename)
 
-    resp_dict['real_estate'] = best_RE.to_dict(orient='records')
+    resp_dict['Apartments'] = best_RE.to_dict(orient='records')
     return jsonify(resp_dict)
