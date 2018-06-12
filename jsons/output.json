@@ -8,7 +8,7 @@
             "Lat": 32.7817521,
             "Leasing_available": false,
             "Long": -117.1125221,
-            "Price": 577837,
+            "Price": 577837.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -24,7 +24,7 @@
             "Lat": 32.78118113,
             "Leasing_available": false,
             "Long": -117.112569,
-            "Price": 470510,
+            "Price": 470510.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -40,7 +40,7 @@
             "Lat": 32.78079485,
             "Leasing_available": true,
             "Long": -117.112799,
-            "Price": 722718,
+            "Price": 722718.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -56,7 +56,7 @@
             "Lat": 32.78178356,
             "Leasing_available": false,
             "Long": -117.1143536,
-            "Price": 681896,
+            "Price": 681896.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -72,7 +72,7 @@
             "Lat": 32.7813255,
             "Leasing_available": true,
             "Long": -117.1115807,
-            "Price": 327917,
+            "Price": 327917.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -88,7 +88,7 @@
             "Lat": 32.78272377,
             "Leasing_available": false,
             "Long": -117.1116579,
-            "Price": 324266,
+            "Price": 324266.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -104,7 +104,7 @@
             "Lat": 32.78244362,
             "Leasing_available": false,
             "Long": -117.1152599,
-            "Price": 160460,
+            "Price": 160460.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -120,7 +120,7 @@
             "Lat": 32.78037737,
             "Leasing_available": true,
             "Long": -117.1113214,
-            "Price": 163453,
+            "Price": 163453.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -136,7 +136,7 @@
             "Lat": 32.78240842,
             "Leasing_available": true,
             "Long": -117.1108983,
-            "Price": 252680,
+            "Price": 252680.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -152,7 +152,7 @@
             "Lat": 32.78117124,
             "Leasing_available": true,
             "Long": -117.115502,
-            "Price": 248793,
+            "Price": 248793.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -168,7 +168,7 @@
             "Lat": 32.78380308,
             "Leasing_available": true,
             "Long": -117.1127435,
-            "Price": 239004,
+            "Price": 239004.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -184,7 +184,7 @@
             "Lat": 32.78385136,
             "Leasing_available": true,
             "Long": -117.1135519,
-            "Price": 790800,
+            "Price": 790800.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -200,7 +200,7 @@
             "Lat": 32.78251526,
             "Leasing_available": true,
             "Long": -117.1107335,
-            "Price": 962787,
+            "Price": 962787.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -216,7 +216,7 @@
             "Lat": 32.78173211,
             "Leasing_available": false,
             "Long": -117.1157802,
-            "Price": 836921,
+            "Price": 836921.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -232,7 +232,7 @@
             "Lat": 32.78002795,
             "Leasing_available": true,
             "Long": -117.111386,
-            "Price": 742005,
+            "Price": 742005.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -248,7 +248,7 @@
             "Lat": 32.78058239,
             "Leasing_available": true,
             "Long": -117.1155564,
-            "Price": 174144,
+            "Price": 174144.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -264,7 +264,7 @@
             "Lat": 32.78305832,
             "Leasing_available": true,
             "Long": -117.1109156,
-            "Price": 182791,
+            "Price": 182791.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -280,7 +280,7 @@
             "Lat": 32.78382173,
             "Leasing_available": false,
             "Long": -117.1118034,
-            "Price": 469636,
+            "Price": 469636.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -296,7 +296,7 @@
             "Lat": 32.78119524,
             "Leasing_available": true,
             "Long": -117.1160044,
-            "Price": 68999,
+            "Price": 68999.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -312,7 +312,7 @@
             "Lat": 32.78243623,
             "Leasing_available": true,
             "Long": -117.1160478,
-            "Price": 624142,
+            "Price": 624142.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -324,11 +324,11 @@
             "Address": "3876 Camino del Rio N",
             "Area": 636,
             "Distance_to_center": 0.2898606109569729,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78066206,
             "Leasing_available": true,
             "Long": -117.1103113,
-            "Price": 194685,
+            "Price": 194685.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -344,7 +344,7 @@
             "Lat": 32.78202565,
             "Leasing_available": true,
             "Long": -117.116253,
-            "Price": 927120,
+            "Price": 927120.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -360,7 +360,7 @@
             "Lat": 32.78082491,
             "Leasing_available": true,
             "Long": -117.1161481,
-            "Price": 686283,
+            "Price": 686283.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -376,7 +376,7 @@
             "Lat": 32.78368057,
             "Leasing_available": true,
             "Long": -117.1157609,
-            "Price": 124961,
+            "Price": 124961.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -392,7 +392,7 @@
             "Lat": 32.77950393,
             "Leasing_available": true,
             "Long": -117.1106893,
-            "Price": 824881,
+            "Price": 824881.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -408,7 +408,7 @@
             "Lat": 32.77868414,
             "Leasing_available": true,
             "Long": -117.1126277,
-            "Price": 308011,
+            "Price": 308011.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -424,7 +424,7 @@
             "Lat": 32.78423124,
             "Leasing_available": true,
             "Long": -117.1111547,
-            "Price": 653619,
+            "Price": 653619.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -436,11 +436,11 @@
             "Address": "10634 Caminito Cascara",
             "Area": 571,
             "Distance_to_center": 0.3411144862576868,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78275813,
             "Leasing_available": false,
             "Long": -117.1097484,
-            "Price": 271159,
+            "Price": 271159.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -452,11 +452,11 @@
             "Address": "Escondido Fwy",
             "Area": 832,
             "Distance_to_center": 0.34591703053341555,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78429334,
             "Leasing_available": false,
             "Long": -117.1151803,
-            "Price": 699701,
+            "Price": 699701.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -472,7 +472,7 @@
             "Lat": 32.77878588,
             "Leasing_available": false,
             "Long": -117.1117056,
-            "Price": 868907,
+            "Price": 868907.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -488,7 +488,7 @@
             "Lat": 32.78280129,
             "Leasing_available": true,
             "Long": -117.1096301,
-            "Price": 639798,
+            "Price": 639798.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -504,7 +504,7 @@
             "Lat": 32.7801044,
             "Leasing_available": false,
             "Long": -117.1098158,
-            "Price": 174245,
+            "Price": 174245.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -520,7 +520,7 @@
             "Lat": 32.77844155,
             "Leasing_available": false,
             "Long": -117.1129053,
-            "Price": 888287,
+            "Price": 888287.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -536,7 +536,7 @@
             "Lat": 32.78147033,
             "Leasing_available": true,
             "Long": -117.1170424,
-            "Price": 171560,
+            "Price": 171560.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -552,7 +552,7 @@
             "Lat": 32.7824311,
             "Leasing_available": true,
             "Long": -117.1093474,
-            "Price": 697448,
+            "Price": 697448.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -564,11 +564,11 @@
             "Address": "6029 Rancho Mission Rd",
             "Area": 1199,
             "Distance_to_center": 0.3739690292510985,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.7839739,
             "Leasing_available": false,
             "Long": -117.1102309,
-            "Price": 449675,
+            "Price": 449675.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -584,7 +584,7 @@
             "Lat": 32.77964253,
             "Leasing_available": false,
             "Long": -117.1164286,
-            "Price": 441215,
+            "Price": 441215.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -600,7 +600,7 @@
             "Lat": 32.77961169,
             "Leasing_available": true,
             "Long": -117.1099126,
-            "Price": 463510,
+            "Price": 463510.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -616,7 +616,7 @@
             "Lat": 32.78510132,
             "Leasing_available": true,
             "Long": -117.1136086,
-            "Price": 316528,
+            "Price": 316528.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -632,7 +632,7 @@
             "Lat": 32.78245892,
             "Leasing_available": false,
             "Long": -117.1091045,
-            "Price": 579897,
+            "Price": 579897.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -648,7 +648,7 @@
             "Lat": 32.78039097,
             "Leasing_available": true,
             "Long": -117.109264,
-            "Price": 463954,
+            "Price": 463954.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -664,7 +664,7 @@
             "Lat": 32.78026591,
             "Leasing_available": false,
             "Long": -117.1169958,
-            "Price": 736006,
+            "Price": 736006.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -680,7 +680,7 @@
             "Lat": 32.78474695,
             "Leasing_available": true,
             "Long": -117.1110356,
-            "Price": 453282,
+            "Price": 453282.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -696,7 +696,7 @@
             "Lat": 32.77874925,
             "Leasing_available": false,
             "Long": -117.1157171,
-            "Price": 526885,
+            "Price": 526885.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -712,7 +712,7 @@
             "Lat": 32.78255108,
             "Leasing_available": false,
             "Long": -117.1173592,
-            "Price": 436613,
+            "Price": 436613.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -728,7 +728,7 @@
             "Lat": 32.78362708,
             "Leasing_available": false,
             "Long": -117.116846,
-            "Price": 969406,
+            "Price": 969406.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -744,7 +744,7 @@
             "Lat": 32.77815583,
             "Leasing_available": false,
             "Long": -117.1118393,
-            "Price": 562145,
+            "Price": 562145.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -756,11 +756,11 @@
             "Address": "6049 Rancho Mission Rd",
             "Area": 813,
             "Distance_to_center": 0.4150838714150159,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78331332,
             "Leasing_available": true,
             "Long": -117.1091716,
-            "Price": 87867,
+            "Price": 87867.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -776,7 +776,7 @@
             "Lat": 32.77796151,
             "Leasing_available": false,
             "Long": -117.113856,
-            "Price": 102239,
+            "Price": 102239.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -792,7 +792,7 @@
             "Lat": 32.77892541,
             "Leasing_available": true,
             "Long": -117.1162085,
-            "Price": 518150,
+            "Price": 518150.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -804,11 +804,11 @@
             "Address": "10445 San Diego Mission Rd",
             "Area": 1403,
             "Distance_to_center": 0.4204494799383633,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78499452,
             "Leasing_available": true,
             "Long": -117.1109754,
-            "Price": 726921,
+            "Price": 726921.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -824,7 +824,7 @@
             "Lat": 32.78261742,
             "Leasing_available": true,
             "Long": -117.1175456,
-            "Price": 674553,
+            "Price": 674553.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -840,7 +840,7 @@
             "Lat": 32.78456901,
             "Leasing_available": true,
             "Long": -117.116246,
-            "Price": 359332,
+            "Price": 359332.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -856,7 +856,7 @@
             "Lat": 32.78528694,
             "Leasing_available": false,
             "Long": -117.1149434,
-            "Price": 589584,
+            "Price": 589584.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -872,7 +872,7 @@
             "Lat": 32.77983832,
             "Leasing_available": false,
             "Long": -117.1090316,
-            "Price": 414689,
+            "Price": 414689.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -888,7 +888,7 @@
             "Lat": 32.78380869,
             "Leasing_available": true,
             "Long": -117.117131,
-            "Price": 52568,
+            "Price": 52568.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -904,7 +904,7 @@
             "Lat": 32.78567718,
             "Leasing_available": false,
             "Long": -117.1132849,
-            "Price": 838991,
+            "Price": 838991.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -920,7 +920,7 @@
             "Lat": 32.78340012,
             "Leasing_available": true,
             "Long": -117.1174548,
-            "Price": 612698,
+            "Price": 612698.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -936,7 +936,7 @@
             "Lat": 32.77978209,
             "Leasing_available": true,
             "Long": -117.1089654,
-            "Price": 508200,
+            "Price": 508200.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -948,11 +948,11 @@
             "Address": "3590 Camino del Rio N",
             "Area": 1061,
             "Distance_to_center": 0.45348048022184,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77933821,
             "Leasing_available": true,
             "Long": -117.1171257,
-            "Price": 594330,
+            "Price": 594330.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -968,7 +968,7 @@
             "Lat": 32.78509317,
             "Leasing_available": true,
             "Long": -117.1104383,
-            "Price": 625230,
+            "Price": 625230.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -984,7 +984,7 @@
             "Lat": 32.78288603,
             "Leasing_available": true,
             "Long": -117.1084682,
-            "Price": 338089,
+            "Price": 338089.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1000,7 +1000,7 @@
             "Lat": 32.777596,
             "Leasing_available": true,
             "Long": -117.1140189,
-            "Price": 79709,
+            "Price": 79709.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1016,7 +1016,7 @@
             "Lat": 32.78586264,
             "Leasing_available": false,
             "Long": -117.112366,
-            "Price": 183516,
+            "Price": 183516.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1032,7 +1032,7 @@
             "Lat": 32.77762212,
             "Leasing_available": true,
             "Long": -117.1145956,
-            "Price": 453211,
+            "Price": 453211.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1048,7 +1048,7 @@
             "Lat": 32.77757502,
             "Leasing_available": false,
             "Long": -117.1118542,
-            "Price": 160890,
+            "Price": 160890.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1064,7 +1064,7 @@
             "Lat": 32.77758742,
             "Leasing_available": true,
             "Long": -117.111758,
-            "Price": 326674,
+            "Price": 326674.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1080,7 +1080,7 @@
             "Lat": 32.78297042,
             "Leasing_available": false,
             "Long": -117.1082788,
-            "Price": 995625,
+            "Price": 995625.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1096,7 +1096,7 @@
             "Lat": 32.77920704,
             "Leasing_available": true,
             "Long": -117.1173768,
-            "Price": 407161,
+            "Price": 407161.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1112,7 +1112,7 @@
             "Lat": 32.78533852,
             "Leasing_available": true,
             "Long": -117.1160392,
-            "Price": 788576,
+            "Price": 788576.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1128,7 +1128,7 @@
             "Lat": 32.77983457,
             "Leasing_available": false,
             "Long": -117.1083486,
-            "Price": 953016,
+            "Price": 953016.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1144,7 +1144,7 @@
             "Lat": 32.78007315,
             "Leasing_available": false,
             "Long": -117.1082171,
-            "Price": 669982,
+            "Price": 669982.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1160,7 +1160,7 @@
             "Lat": 32.77717223,
             "Leasing_available": true,
             "Long": -117.1129097,
-            "Price": 684674,
+            "Price": 684674.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1176,7 +1176,7 @@
             "Lat": 32.78357457,
             "Leasing_available": true,
             "Long": -117.1180314,
-            "Price": 192505,
+            "Price": 192505.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1192,7 +1192,7 @@
             "Lat": 32.77985854,
             "Leasing_available": true,
             "Long": -117.1082482,
-            "Price": 150624,
+            "Price": 150624.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1204,11 +1204,11 @@
             "Address": "Stadium Plaza",
             "Area": 1461,
             "Distance_to_center": 0.5043456371544138,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78217157,
             "Leasing_available": false,
             "Long": -117.1185121,
-            "Price": 475883,
+            "Price": 475883.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1224,7 +1224,7 @@
             "Lat": 32.78300652,
             "Leasing_available": true,
             "Long": -117.1079597,
-            "Price": 462313,
+            "Price": 462313.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1240,7 +1240,7 @@
             "Lat": 32.77837465,
             "Leasing_available": true,
             "Long": -117.1093338,
-            "Price": 471166,
+            "Price": 471166.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1256,7 +1256,7 @@
             "Lat": 32.78531352,
             "Leasing_available": true,
             "Long": -117.1097607,
-            "Price": 666777,
+            "Price": 666777.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1272,7 +1272,7 @@
             "Lat": 32.77922315,
             "Leasing_available": true,
             "Long": -117.1083923,
-            "Price": 254475,
+            "Price": 254475.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1288,7 +1288,7 @@
             "Lat": 32.77764004,
             "Leasing_available": true,
             "Long": -117.1160664,
-            "Price": 666615,
+            "Price": 666615.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1304,7 +1304,7 @@
             "Lat": 32.7860578,
             "Leasing_available": false,
             "Long": -117.1152926,
-            "Price": 378422,
+            "Price": 378422.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1320,7 +1320,7 @@
             "Lat": 32.77938002,
             "Leasing_available": false,
             "Long": -117.1180689,
-            "Price": 897331,
+            "Price": 897331.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1336,7 +1336,7 @@
             "Lat": 32.77789406,
             "Leasing_available": true,
             "Long": -117.1097329,
-            "Price": 788060,
+            "Price": 788060.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1348,11 +1348,11 @@
             "Address": "5957 Caminito Chiapas",
             "Area": 797,
             "Distance_to_center": 0.5338322554160537,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78219106,
             "Leasing_available": false,
             "Long": -117.1074933,
-            "Price": 468921,
+            "Price": 468921.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1368,7 +1368,7 @@
             "Lat": 32.78436335,
             "Leasing_available": false,
             "Long": -117.1084266,
-            "Price": 709731,
+            "Price": 709731.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1384,7 +1384,7 @@
             "Lat": 32.77790126,
             "Leasing_available": false,
             "Long": -117.1166974,
-            "Price": 324435,
+            "Price": 324435.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1400,7 +1400,7 @@
             "Lat": 32.77749681,
             "Leasing_available": false,
             "Long": -117.1160258,
-            "Price": 254135,
+            "Price": 254135.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1416,7 +1416,7 @@
             "Lat": 32.780917,
             "Leasing_available": false,
             "Long": -117.1074796,
-            "Price": 76782,
+            "Price": 76782.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1432,7 +1432,7 @@
             "Lat": 32.78594456,
             "Leasing_available": false,
             "Long": -117.110323,
-            "Price": 679782,
+            "Price": 679782.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1448,7 +1448,7 @@
             "Lat": 32.77906172,
             "Leasing_available": true,
             "Long": -117.1180605,
-            "Price": 606121,
+            "Price": 606121.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1464,7 +1464,7 @@
             "Lat": 32.77687049,
             "Leasing_available": false,
             "Long": -117.1143579,
-            "Price": 713610,
+            "Price": 713610.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1480,7 +1480,7 @@
             "Lat": 32.77976963,
             "Leasing_available": true,
             "Long": -117.107749,
-            "Price": 388613,
+            "Price": 388613.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1492,11 +1492,11 @@
             "Address": "3547 Camino del Rio S",
             "Area": 1842,
             "Distance_to_center": 0.5522297716203273,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.7779929,
             "Leasing_available": true,
             "Long": -117.1171181,
-            "Price": 825208,
+            "Price": 825208.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1512,7 +1512,7 @@
             "Lat": 32.7847628,
             "Leasing_available": false,
             "Long": -117.1177927,
-            "Price": 223304,
+            "Price": 223304.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1524,11 +1524,11 @@
             "Address": "10767 San Diego Mission Rd",
             "Area": 539,
             "Distance_to_center": 0.5526618872008344,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.7834416,
             "Leasing_available": false,
             "Long": -117.1076401,
-            "Price": 133493,
+            "Price": 133493.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1544,7 +1544,7 @@
             "Lat": 32.78307045,
             "Leasing_available": false,
             "Long": -117.1188435,
-            "Price": 750915,
+            "Price": 750915.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1560,7 +1560,7 @@
             "Lat": 32.78523926,
             "Leasing_available": true,
             "Long": -117.1089654,
-            "Price": 953051,
+            "Price": 953051.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1576,7 +1576,7 @@
             "Lat": 32.78178523,
             "Leasing_available": true,
             "Long": -117.1072153,
-            "Price": 507618,
+            "Price": 507618.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1588,11 +1588,11 @@
             "Address": "3945 Camino del Rio S",
             "Area": 774,
             "Distance_to_center": 0.5617601673147291,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77723036,
             "Leasing_available": true,
             "Long": -117.1103,
-            "Price": 728712,
+            "Price": 728712.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1608,7 +1608,7 @@
             "Lat": 32.77914737,
             "Leasing_available": false,
             "Long": -117.1183903,
-            "Price": 147863,
+            "Price": 147863.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1624,7 +1624,7 @@
             "Lat": 32.77918922,
             "Leasing_available": false,
             "Long": -117.1078324,
-            "Price": 329511,
+            "Price": 329511.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1640,7 +1640,7 @@
             "Lat": 32.78670066,
             "Leasing_available": false,
             "Long": -117.1145405,
-            "Price": 136880,
+            "Price": 136880.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1656,7 +1656,7 @@
             "Lat": 32.78666273,
             "Leasing_available": false,
             "Long": -117.1115762,
-            "Price": 452288,
+            "Price": 452288.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1672,7 +1672,7 @@
             "Lat": 32.77658808,
             "Leasing_available": false,
             "Long": -117.1121451,
-            "Price": 825657,
+            "Price": 825657.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1688,7 +1688,7 @@
             "Lat": 32.78450429,
             "Leasing_available": false,
             "Long": -117.1183414,
-            "Price": 582316,
+            "Price": 582316.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1704,7 +1704,7 @@
             "Lat": 32.78428644,
             "Leasing_available": false,
             "Long": -117.107715,
-            "Price": 264589,
+            "Price": 264589.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1720,7 +1720,7 @@
             "Lat": 32.78429704,
             "Leasing_available": false,
             "Long": -117.1077111,
-            "Price": 529851,
+            "Price": 529851.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1736,7 +1736,7 @@
             "Lat": 32.78365733,
             "Leasing_available": true,
             "Long": -117.1073333,
-            "Price": 892190,
+            "Price": 892190.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1752,7 +1752,7 @@
             "Lat": 32.78679948,
             "Leasing_available": true,
             "Long": -117.1149223,
-            "Price": 340206,
+            "Price": 340206.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1768,7 +1768,7 @@
             "Lat": 32.77827388,
             "Leasing_available": false,
             "Long": -117.1180337,
-            "Price": 406100,
+            "Price": 406100.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1784,7 +1784,7 @@
             "Lat": 32.77628599,
             "Leasing_available": false,
             "Long": -117.1133871,
-            "Price": 836152,
+            "Price": 836152.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1800,7 +1800,7 @@
             "Lat": 32.78221443,
             "Leasing_available": true,
             "Long": -117.119563,
-            "Price": 795970,
+            "Price": 795970.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1816,7 +1816,7 @@
             "Lat": 32.77624322,
             "Leasing_available": false,
             "Long": -117.1134485,
-            "Price": 952957,
+            "Price": 952957.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1832,7 +1832,7 @@
             "Lat": 32.77877516,
             "Leasing_available": false,
             "Long": -117.1186529,
-            "Price": 415130,
+            "Price": 415130.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1848,7 +1848,7 @@
             "Lat": 32.77636486,
             "Leasing_available": true,
             "Long": -117.1147134,
-            "Price": 267475,
+            "Price": 267475.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1864,7 +1864,7 @@
             "Lat": 32.77943589,
             "Leasing_available": true,
             "Long": -117.1072393,
-            "Price": 577940,
+            "Price": 577940.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1880,7 +1880,7 @@
             "Lat": 32.78698109,
             "Leasing_available": true,
             "Long": -117.114927,
-            "Price": 992764,
+            "Price": 992764.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1892,11 +1892,11 @@
             "Address": "9927 San Diego Mission Rd",
             "Area": 815,
             "Distance_to_center": 0.611201424759541,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78530423,
             "Leasing_available": false,
             "Long": -117.1180776,
-            "Price": 708415,
+            "Price": 708415.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1912,7 +1912,7 @@
             "Lat": 32.77617486,
             "Leasing_available": true,
             "Long": -117.1134298,
-            "Price": 755253,
+            "Price": 755253.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1928,7 +1928,7 @@
             "Lat": 32.77714543,
             "Leasing_available": false,
             "Long": -117.1092647,
-            "Price": 415600,
+            "Price": 415600.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1944,7 +1944,7 @@
             "Lat": 32.78724484,
             "Leasing_available": false,
             "Long": -117.1123149,
-            "Price": 649495,
+            "Price": 649495.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -1960,7 +1960,7 @@
             "Lat": 32.77799249,
             "Leasing_available": true,
             "Long": -117.1081231,
-            "Price": 92350,
+            "Price": 92350.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1972,11 +1972,11 @@
             "Address": "10723 Caminito Cascara",
             "Area": 1657,
             "Distance_to_center": 0.6310332224190583,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78133746,
             "Leasing_available": true,
             "Long": -117.1064363,
-            "Price": 145111,
+            "Price": 145111.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -1992,7 +1992,7 @@
             "Lat": 32.77596762,
             "Leasing_available": false,
             "Long": -117.1130356,
-            "Price": 229466,
+            "Price": 229466.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2008,7 +2008,7 @@
             "Lat": 32.77604597,
             "Leasing_available": true,
             "Long": -117.1143365,
-            "Price": 587076,
+            "Price": 587076.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2024,7 +2024,7 @@
             "Lat": 32.78374661,
             "Leasing_available": false,
             "Long": -117.1194842,
-            "Price": 321737,
+            "Price": 321737.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2040,7 +2040,7 @@
             "Lat": 32.78349943,
             "Leasing_available": true,
             "Long": -117.1066846,
-            "Price": 302859,
+            "Price": 302859.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2056,7 +2056,7 @@
             "Lat": 32.77594948,
             "Leasing_available": true,
             "Long": -117.1122574,
-            "Price": 300641,
+            "Price": 300641.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2072,7 +2072,7 @@
             "Lat": 32.7844376,
             "Leasing_available": false,
             "Long": -117.1071196,
-            "Price": 932258,
+            "Price": 932258.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2088,7 +2088,7 @@
             "Lat": 32.77595027,
             "Leasing_available": false,
             "Long": -117.111948,
-            "Price": 63152,
+            "Price": 63152.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2104,7 +2104,7 @@
             "Lat": 32.78750241,
             "Leasing_available": false,
             "Long": -117.112812,
-            "Price": 723853,
+            "Price": 723853.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2120,7 +2120,7 @@
             "Lat": 32.78664888,
             "Leasing_available": false,
             "Long": -117.1095118,
-            "Price": 779003,
+            "Price": 779003.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2136,7 +2136,7 @@
             "Lat": 32.77587156,
             "Leasing_available": true,
             "Long": -117.1141633,
-            "Price": 965573,
+            "Price": 965573.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2152,7 +2152,7 @@
             "Lat": 32.7839354,
             "Leasing_available": true,
             "Long": -117.1067281,
-            "Price": 772481,
+            "Price": 772481.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2168,7 +2168,7 @@
             "Lat": 32.781334,
             "Leasing_available": false,
             "Long": -117.1201121,
-            "Price": 801541,
+            "Price": 801541.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2184,7 +2184,7 @@
             "Lat": 32.77962885,
             "Leasing_available": true,
             "Long": -117.1197094,
-            "Price": 57743,
+            "Price": 57743.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2200,7 +2200,7 @@
             "Lat": 32.77936024,
             "Leasing_available": false,
             "Long": -117.1195931,
-            "Price": 699140,
+            "Price": 699140.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2212,11 +2212,11 @@
             "Address": "3517 Camino del Rio S",
             "Area": 1237,
             "Distance_to_center": 0.6556845110535158,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77668877,
             "Leasing_available": false,
             "Long": -117.1169064,
-            "Price": 847671,
+            "Price": 847671.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2232,7 +2232,7 @@
             "Lat": 32.77595071,
             "Leasing_available": true,
             "Long": -117.1149892,
-            "Price": 850794,
+            "Price": 850794.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2248,7 +2248,7 @@
             "Lat": 32.7871075,
             "Leasing_available": true,
             "Long": -117.1161855,
-            "Price": 834399,
+            "Price": 834399.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2264,7 +2264,7 @@
             "Lat": 32.78756954,
             "Leasing_available": true,
             "Long": -117.1116394,
-            "Price": 653252,
+            "Price": 653252.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2280,7 +2280,7 @@
             "Lat": 32.78256383,
             "Leasing_available": false,
             "Long": -117.1060314,
-            "Price": 535804,
+            "Price": 535804.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2296,7 +2296,7 @@
             "Lat": 32.7777312,
             "Leasing_available": true,
             "Long": -117.1076787,
-            "Price": 167481,
+            "Price": 167481.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2312,7 +2312,7 @@
             "Lat": 32.77911586,
             "Leasing_available": false,
             "Long": -117.1197035,
-            "Price": 286982,
+            "Price": 286982.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2328,7 +2328,7 @@
             "Lat": 32.78774834,
             "Leasing_available": true,
             "Long": -117.1119723,
-            "Price": 916133,
+            "Price": 916133.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2340,11 +2340,11 @@
             "Address": "4025 Camino del Rio S",
             "Area": 1471,
             "Distance_to_center": 0.6853590216311832,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77801745,
             "Leasing_available": false,
             "Long": -117.1072696,
-            "Price": 543600,
+            "Price": 543600.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2360,7 +2360,7 @@
             "Lat": 32.77609461,
             "Leasing_available": false,
             "Long": -117.116354,
-            "Price": 200967,
+            "Price": 200967.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2376,7 +2376,7 @@
             "Lat": 32.77581008,
             "Leasing_available": true,
             "Long": -117.1106716,
-            "Price": 420606,
+            "Price": 420606.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2392,7 +2392,7 @@
             "Lat": 32.78420778,
             "Leasing_available": false,
             "Long": -117.106406,
-            "Price": 935257,
+            "Price": 935257.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2408,7 +2408,7 @@
             "Lat": 32.78787639,
             "Leasing_available": true,
             "Long": -117.1140588,
-            "Price": 629109,
+            "Price": 629109.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2424,7 +2424,7 @@
             "Lat": 32.78569308,
             "Leasing_available": false,
             "Long": -117.1188267,
-            "Price": 663337,
+            "Price": 663337.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2440,7 +2440,7 @@
             "Lat": 32.78503918,
             "Leasing_available": false,
             "Long": -117.106854,
-            "Price": 262333,
+            "Price": 262333.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2456,7 +2456,7 @@
             "Lat": 32.78772255,
             "Leasing_available": false,
             "Long": -117.1108151,
-            "Price": 881920,
+            "Price": 881920.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2472,7 +2472,7 @@
             "Lat": 32.78256319,
             "Leasing_available": false,
             "Long": -117.1206217,
-            "Price": 431501,
+            "Price": 431501.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2488,7 +2488,7 @@
             "Lat": 32.77534177,
             "Leasing_available": true,
             "Long": -117.1138754,
-            "Price": 890303,
+            "Price": 890303.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2504,7 +2504,7 @@
             "Lat": 32.78607501,
             "Leasing_available": true,
             "Long": -117.1076629,
-            "Price": 77716,
+            "Price": 77716.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2520,7 +2520,7 @@
             "Lat": 32.78036167,
             "Leasing_available": false,
             "Long": -117.1205901,
-            "Price": 573768,
+            "Price": 573768.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2536,7 +2536,7 @@
             "Lat": 32.78482919,
             "Leasing_available": true,
             "Long": -117.1197805,
-            "Price": 613005,
+            "Price": 613005.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2552,7 +2552,7 @@
             "Lat": 32.77573634,
             "Leasing_available": true,
             "Long": -117.1160781,
-            "Price": 83322,
+            "Price": 83322.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2568,7 +2568,7 @@
             "Lat": 32.77882308,
             "Leasing_available": false,
             "Long": -117.1063225,
-            "Price": 166032,
+            "Price": 166032.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2584,7 +2584,7 @@
             "Lat": 32.78328483,
             "Leasing_available": false,
             "Long": -117.1205709,
-            "Price": 227692,
+            "Price": 227692.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2596,11 +2596,11 @@
             "Address": "Friars Rd",
             "Area": 1493,
             "Distance_to_center": 0.7171866882919677,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78785105,
             "Leasing_available": false,
             "Long": -117.1154588,
-            "Price": 151994,
+            "Price": 151994.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2616,7 +2616,7 @@
             "Lat": 32.78812183,
             "Leasing_available": true,
             "Long": -117.1121771,
-            "Price": 712618,
+            "Price": 712618.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2632,7 +2632,7 @@
             "Lat": 32.77814443,
             "Leasing_available": false,
             "Long": -117.1067028,
-            "Price": 765828,
+            "Price": 765828.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2644,11 +2644,11 @@
             "Address": "4007 Camino del Rio S",
             "Area": 1405,
             "Distance_to_center": 0.7247985842290168,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77660714,
             "Leasing_available": false,
             "Long": -117.1082857,
-            "Price": 995208,
+            "Price": 995208.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2664,7 +2664,7 @@
             "Lat": 32.78762161,
             "Leasing_available": false,
             "Long": -117.1163968,
-            "Price": 164391,
+            "Price": 164391.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2680,7 +2680,7 @@
             "Lat": 32.777838,
             "Leasing_available": false,
             "Long": -117.1068936,
-            "Price": 372577,
+            "Price": 372577.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2696,7 +2696,7 @@
             "Lat": 32.78278077,
             "Leasing_available": false,
             "Long": -117.105517,
-            "Price": 657705,
+            "Price": 657705.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -2712,7 +2712,7 @@
             "Lat": 32.78685298,
             "Leasing_available": false,
             "Long": -117.117949,
-            "Price": 472632,
+            "Price": 472632.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2728,7 +2728,7 @@
             "Lat": 32.78658892,
             "Leasing_available": true,
             "Long": -117.1183595,
-            "Price": 723646,
+            "Price": 723646.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2744,7 +2744,7 @@
             "Lat": 32.78816673,
             "Leasing_available": false,
             "Long": -117.11457,
-            "Price": 613657,
+            "Price": 613657.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2756,11 +2756,11 @@
             "Address": "5371 Wilshire Dr",
             "Area": 923,
             "Distance_to_center": 0.7324368404732993,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77511441,
             "Leasing_available": true,
             "Long": -117.1139777,
-            "Price": 629717,
+            "Price": 629717.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2776,7 +2776,7 @@
             "Lat": 32.78418342,
             "Leasing_available": false,
             "Long": -117.1059224,
-            "Price": 485026,
+            "Price": 485026.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2792,7 +2792,7 @@
             "Lat": 32.77561778,
             "Leasing_available": false,
             "Long": -117.1164618,
-            "Price": 541322,
+            "Price": 541322.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2804,11 +2804,11 @@
             "Address": "Friars Rd",
             "Area": 1677,
             "Distance_to_center": 0.7418186598389557,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78836719,
             "Leasing_available": true,
             "Long": -117.1128706,
-            "Price": 651339,
+            "Price": 651339.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2824,7 +2824,7 @@
             "Lat": 32.77623816,
             "Leasing_available": false,
             "Long": -117.1085539,
-            "Price": 213421,
+            "Price": 213421.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2840,7 +2840,7 @@
             "Lat": 32.77533222,
             "Leasing_available": true,
             "Long": -117.1106349,
-            "Price": 280531,
+            "Price": 280531.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2856,7 +2856,7 @@
             "Lat": 32.78824519,
             "Leasing_available": true,
             "Long": -117.1114393,
-            "Price": 247854,
+            "Price": 247854.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2872,7 +2872,7 @@
             "Lat": 32.78798863,
             "Leasing_available": false,
             "Long": -117.1160265,
-            "Price": 651730,
+            "Price": 651730.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2888,7 +2888,7 @@
             "Lat": 32.77792285,
             "Leasing_available": true,
             "Long": -117.1198079,
-            "Price": 217726,
+            "Price": 217726.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2904,7 +2904,7 @@
             "Lat": 32.78811768,
             "Leasing_available": true,
             "Long": -117.110639,
-            "Price": 165536,
+            "Price": 165536.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2920,7 +2920,7 @@
             "Lat": 32.78225148,
             "Leasing_available": true,
             "Long": -117.1211684,
-            "Price": 97978,
+            "Price": 97978.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2936,7 +2936,7 @@
             "Lat": 32.77719469,
             "Leasing_available": false,
             "Long": -117.1191988,
-            "Price": 330971,
+            "Price": 330971.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2952,7 +2952,7 @@
             "Lat": 32.78200357,
             "Leasing_available": false,
             "Long": -117.121234,
-            "Price": 92087,
+            "Price": 92087.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2968,7 +2968,7 @@
             "Lat": 32.77881381,
             "Leasing_available": true,
             "Long": -117.1205082,
-            "Price": 254162,
+            "Price": 254162.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -2984,7 +2984,7 @@
             "Lat": 32.78841027,
             "Leasing_available": true,
             "Long": -117.1116456,
-            "Price": 414877,
+            "Price": 414877.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3000,7 +3000,7 @@
             "Lat": 32.78467594,
             "Leasing_available": false,
             "Long": -117.1204539,
-            "Price": 861380,
+            "Price": 861380.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3016,7 +3016,7 @@
             "Lat": 32.77498561,
             "Leasing_available": false,
             "Long": -117.1114338,
-            "Price": 275447,
+            "Price": 275447.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3028,11 +3028,11 @@
             "Address": "9966 San Diego Mission Rd",
             "Area": 622,
             "Distance_to_center": 0.7618857645997892,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78721629,
             "Leasing_available": true,
             "Long": -117.1179794,
-            "Price": 354456,
+            "Price": 354456.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3044,11 +3044,11 @@
             "Address": "Winners Circle",
             "Area": 530,
             "Distance_to_center": 0.7627103989074623,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78104709,
             "Leasing_available": false,
             "Long": -117.1212663,
-            "Price": 763272,
+            "Price": 763272.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3064,7 +3064,7 @@
             "Lat": 32.78736019,
             "Leasing_available": false,
             "Long": -117.1085166,
-            "Price": 404333,
+            "Price": 404333.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3080,7 +3080,7 @@
             "Lat": 32.7842874,
             "Leasing_available": false,
             "Long": -117.105581,
-            "Price": 651354,
+            "Price": 651354.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3096,7 +3096,7 @@
             "Lat": 32.78853574,
             "Leasing_available": false,
             "Long": -117.1120565,
-            "Price": 54880,
+            "Price": 54880.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3108,11 +3108,11 @@
             "Address": "6255 Rancho Mission Rd",
             "Area": 684,
             "Distance_to_center": 0.7694605013750676,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78674827,
             "Leasing_available": true,
             "Long": -117.107547,
-            "Price": 915430,
+            "Price": 915430.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3128,7 +3128,7 @@
             "Lat": 32.77601198,
             "Leasing_available": false,
             "Long": -117.1179446,
-            "Price": 344877,
+            "Price": 344877.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3140,11 +3140,11 @@
             "Address": "Stadium Plaza",
             "Area": 1299,
             "Distance_to_center": 0.7743196397045613,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78399218,
             "Leasing_available": false,
             "Long": -117.1209599,
-            "Price": 45666,
+            "Price": 45666.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3160,7 +3160,7 @@
             "Lat": 32.77498274,
             "Leasing_available": false,
             "Long": -117.1156854,
-            "Price": 593294,
+            "Price": 593294.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3176,7 +3176,7 @@
             "Lat": 32.78180269,
             "Leasing_available": true,
             "Long": -117.1048366,
-            "Price": 602928,
+            "Price": 602928.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3192,7 +3192,7 @@
             "Lat": 32.7865423,
             "Leasing_available": false,
             "Long": -117.1071282,
-            "Price": 106158,
+            "Price": 106158.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3208,7 +3208,7 @@
             "Lat": 32.78534261,
             "Leasing_available": true,
             "Long": -117.120329,
-            "Price": 419186,
+            "Price": 419186.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3224,7 +3224,7 @@
             "Lat": 32.78670219,
             "Leasing_available": true,
             "Long": -117.1072548,
-            "Price": 852594,
+            "Price": 852594.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3240,7 +3240,7 @@
             "Lat": 32.78650512,
             "Leasing_available": true,
             "Long": -117.1193809,
-            "Price": 260755,
+            "Price": 260755.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3256,7 +3256,7 @@
             "Lat": 32.78820238,
             "Leasing_available": false,
             "Long": -117.1096431,
-            "Price": 546460,
+            "Price": 546460.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3272,7 +3272,7 @@
             "Lat": 32.77502852,
             "Leasing_available": true,
             "Long": -117.1163555,
-            "Price": 554746,
+            "Price": 554746.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3288,7 +3288,7 @@
             "Lat": 32.78400272,
             "Leasing_available": false,
             "Long": -117.1050873,
-            "Price": 764790,
+            "Price": 764790.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3304,7 +3304,7 @@
             "Lat": 32.77773599,
             "Leasing_available": true,
             "Long": -117.1203069,
-            "Price": 492741,
+            "Price": 492741.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3320,7 +3320,7 @@
             "Lat": 32.78186867,
             "Leasing_available": true,
             "Long": -117.1045837,
-            "Price": 691438,
+            "Price": 691438.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3336,7 +3336,7 @@
             "Lat": 32.77449816,
             "Leasing_available": false,
             "Long": -117.1118484,
-            "Price": 333033,
+            "Price": 333033.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3348,11 +3348,11 @@
             "Address": "4121 Camino del Rio S",
             "Area": 946,
             "Distance_to_center": 0.8062732039761384,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77803015,
             "Leasing_available": false,
             "Long": -117.1057184,
-            "Price": 946514,
+            "Price": 946514.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3364,11 +3364,11 @@
             "Address": "Friars Rd",
             "Area": 1839,
             "Distance_to_center": 0.8071367878016174,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78852051,
             "Leasing_available": true,
             "Long": -117.110209,
-            "Price": 740137,
+            "Price": 740137.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3384,7 +3384,7 @@
             "Lat": 32.77470693,
             "Leasing_available": false,
             "Long": -117.1106864,
-            "Price": 744429,
+            "Price": 744429.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3396,11 +3396,11 @@
             "Address": "Escondido Fwy",
             "Area": 1158,
             "Distance_to_center": 0.8122513029891744,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78890834,
             "Leasing_available": true,
             "Long": -117.1145763,
-            "Price": 94007,
+            "Price": 94007.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3416,7 +3416,7 @@
             "Lat": 32.78883736,
             "Leasing_available": false,
             "Long": -117.1112044,
-            "Price": 450509,
+            "Price": 450509.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3432,7 +3432,7 @@
             "Lat": 32.7769458,
             "Leasing_available": true,
             "Long": -117.1064939,
-            "Price": 74589,
+            "Price": 74589.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3448,7 +3448,7 @@
             "Lat": 32.77635585,
             "Leasing_available": true,
             "Long": -117.1191754,
-            "Price": 345077,
+            "Price": 345077.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3464,7 +3464,7 @@
             "Lat": 32.78194724,
             "Leasing_available": true,
             "Long": -117.1044364,
-            "Price": 328124,
+            "Price": 328124.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3480,7 +3480,7 @@
             "Lat": 32.78905922,
             "Leasing_available": false,
             "Long": -117.113277,
-            "Price": 244386,
+            "Price": 244386.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3496,7 +3496,7 @@
             "Lat": 32.78579937,
             "Leasing_available": true,
             "Long": -117.1058688,
-            "Price": 373874,
+            "Price": 373874.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3508,11 +3508,11 @@
             "Address": "3443 Camino del Rio S",
             "Area": 1928,
             "Distance_to_center": 0.8219298379201837,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77633188,
             "Leasing_available": false,
             "Long": -117.1192303,
-            "Price": 685374,
+            "Price": 685374.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3524,11 +3524,11 @@
             "Address": "6331 Rancho Mission Rd",
             "Area": 1783,
             "Distance_to_center": 0.8224740106658235,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78712348,
             "Leasing_available": false,
             "Long": -117.1071936,
-            "Price": 121463,
+            "Price": 121463.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3544,7 +3544,7 @@
             "Lat": 32.78907081,
             "Leasing_available": false,
             "Long": -117.1140321,
-            "Price": 709365,
+            "Price": 709365.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3560,7 +3560,7 @@
             "Lat": 32.7778549,
             "Leasing_available": false,
             "Long": -117.1207177,
-            "Price": 154805,
+            "Price": 154805.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3576,7 +3576,7 @@
             "Lat": 32.78656297,
             "Leasing_available": true,
             "Long": -117.1063789,
-            "Price": 903040,
+            "Price": 903040.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3592,7 +3592,7 @@
             "Lat": 32.77414818,
             "Leasing_available": false,
             "Long": -117.1136471,
-            "Price": 850358,
+            "Price": 850358.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3608,7 +3608,7 @@
             "Lat": 32.78612343,
             "Leasing_available": false,
             "Long": -117.1204183,
-            "Price": 610301,
+            "Price": 610301.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3624,7 +3624,7 @@
             "Lat": 32.78840618,
             "Leasing_available": true,
             "Long": -117.1089556,
-            "Price": 73247,
+            "Price": 73247.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3640,7 +3640,7 @@
             "Lat": 32.77759743,
             "Leasing_available": true,
             "Long": -117.105507,
-            "Price": 456755,
+            "Price": 456755.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3656,7 +3656,7 @@
             "Lat": 32.77863892,
             "Leasing_available": false,
             "Long": -117.1214747,
-            "Price": 701877,
+            "Price": 701877.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3672,7 +3672,7 @@
             "Lat": 32.77758466,
             "Leasing_available": true,
             "Long": -117.12083,
-            "Price": 751192,
+            "Price": 751192.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3688,7 +3688,7 @@
             "Lat": 32.78781697,
             "Leasing_available": false,
             "Long": -117.1186424,
-            "Price": 957735,
+            "Price": 957735.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3704,7 +3704,7 @@
             "Lat": 32.78023432,
             "Leasing_available": false,
             "Long": -117.1041758,
-            "Price": 195882,
+            "Price": 195882.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3716,11 +3716,11 @@
             "Address": "Winners Circle",
             "Area": 1057,
             "Distance_to_center": 0.8629443159026227,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78351024,
             "Leasing_available": false,
             "Long": -117.1221135,
-            "Price": 828517,
+            "Price": 828517.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3736,7 +3736,7 @@
             "Lat": 32.78745189,
             "Leasing_available": true,
             "Long": -117.1193916,
-            "Price": 411108,
+            "Price": 411108.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3752,7 +3752,7 @@
             "Lat": 32.78646967,
             "Leasing_available": true,
             "Long": -117.1058273,
-            "Price": 936191,
+            "Price": 936191.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3768,7 +3768,7 @@
             "Lat": 32.77632083,
             "Leasing_available": false,
             "Long": -117.1062546,
-            "Price": 951933,
+            "Price": 951933.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3784,7 +3784,7 @@
             "Lat": 32.77377651,
             "Leasing_available": true,
             "Long": -117.1139092,
-            "Price": 670363,
+            "Price": 670363.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3796,11 +3796,11 @@
             "Address": "undefined",
             "Area": 1985,
             "Distance_to_center": 0.8823525759001619,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78595279,
             "Leasing_available": false,
             "Long": -117.1052125,
-            "Price": 246722,
+            "Price": 246722.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3816,7 +3816,7 @@
             "Lat": 32.77470564,
             "Leasing_available": true,
             "Long": -117.1086038,
-            "Price": 686186,
+            "Price": 686186.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3832,7 +3832,7 @@
             "Lat": 32.78485124,
             "Leasing_available": true,
             "Long": -117.1218263,
-            "Price": 833100,
+            "Price": 833100.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3848,7 +3848,7 @@
             "Lat": 32.78729723,
             "Leasing_available": true,
             "Long": -117.1199184,
-            "Price": 677054,
+            "Price": 677054.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3864,7 +3864,7 @@
             "Lat": 32.78779663,
             "Leasing_available": false,
             "Long": -117.10703,
-            "Price": 237252,
+            "Price": 237252.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3880,7 +3880,7 @@
             "Lat": 32.77888322,
             "Leasing_available": true,
             "Long": -117.1220597,
-            "Price": 168676,
+            "Price": 168676.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3896,7 +3896,7 @@
             "Lat": 32.77379932,
             "Leasing_available": true,
             "Long": -117.11494,
-            "Price": 860757,
+            "Price": 860757.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3912,7 +3912,7 @@
             "Lat": 32.78231486,
             "Leasing_available": false,
             "Long": -117.1226606,
-            "Price": 975696,
+            "Price": 975696.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3928,7 +3928,7 @@
             "Lat": 32.77706234,
             "Leasing_available": false,
             "Long": -117.1209689,
-            "Price": 457854,
+            "Price": 457854.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3944,7 +3944,7 @@
             "Lat": 32.77513684,
             "Leasing_available": false,
             "Long": -117.1075763,
-            "Price": 324697,
+            "Price": 324697.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3960,7 +3960,7 @@
             "Lat": 32.7739594,
             "Leasing_available": false,
             "Long": -117.1103594,
-            "Price": 770348,
+            "Price": 770348.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -3976,7 +3976,7 @@
             "Lat": 32.77705725,
             "Leasing_available": false,
             "Long": -117.1053167,
-            "Price": 810309,
+            "Price": 810309.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -3992,7 +3992,7 @@
             "Lat": 32.7774329,
             "Leasing_available": true,
             "Long": -117.1213102,
-            "Price": 450975,
+            "Price": 450975.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4008,7 +4008,7 @@
             "Lat": 32.77407654,
             "Leasing_available": true,
             "Long": -117.1098869,
-            "Price": 701310,
+            "Price": 701310.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4020,11 +4020,11 @@
             "Address": "Friars Rd",
             "Area": 1919,
             "Distance_to_center": 0.8992856707856416,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78942619,
             "Leasing_available": true,
             "Long": -117.1103107,
-            "Price": 831881,
+            "Price": 831881.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4040,7 +4040,7 @@
             "Lat": 32.78806475,
             "Leasing_available": false,
             "Long": -117.1190832,
-            "Price": 994451,
+            "Price": 994451.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4056,7 +4056,7 @@
             "Lat": 32.77367147,
             "Leasing_available": false,
             "Long": -117.111437,
-            "Price": 483044,
+            "Price": 483044.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4072,7 +4072,7 @@
             "Lat": 32.7786958,
             "Leasing_available": false,
             "Long": -117.1041894,
-            "Price": 149854,
+            "Price": 149854.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4088,7 +4088,7 @@
             "Lat": 32.78868175,
             "Leasing_available": true,
             "Long": -117.1180992,
-            "Price": 312552,
+            "Price": 312552.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4100,11 +4100,11 @@
             "Address": "5186 35th St",
             "Area": 1791,
             "Distance_to_center": 0.905139421797151,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77379825,
             "Leasing_available": false,
             "Long": -117.115657,
-            "Price": 503397,
+            "Price": 503397.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4120,7 +4120,7 @@
             "Lat": 32.77668796,
             "Leasing_available": false,
             "Long": -117.1208179,
-            "Price": 138150,
+            "Price": 138150.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4136,7 +4136,7 @@
             "Lat": 32.77677403,
             "Leasing_available": false,
             "Long": -117.1209485,
-            "Price": 899036,
+            "Price": 899036.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4152,7 +4152,7 @@
             "Lat": 32.78655357,
             "Leasing_available": true,
             "Long": -117.1209868,
-            "Price": 715713,
+            "Price": 715713.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4168,7 +4168,7 @@
             "Lat": 32.78215875,
             "Leasing_available": true,
             "Long": -117.1228992,
-            "Price": 182237,
+            "Price": 182237.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4184,7 +4184,7 @@
             "Lat": 32.78959811,
             "Leasing_available": true,
             "Long": -117.116164,
-            "Price": 76262,
+            "Price": 76262.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4200,7 +4200,7 @@
             "Lat": 32.78994718,
             "Leasing_available": false,
             "Long": -117.1120931,
-            "Price": 697209,
+            "Price": 697209.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4216,7 +4216,7 @@
             "Lat": 32.78481172,
             "Leasing_available": true,
             "Long": -117.1040407,
-            "Price": 603447,
+            "Price": 603447.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4232,7 +4232,7 @@
             "Lat": 32.77902564,
             "Leasing_available": false,
             "Long": -117.1225035,
-            "Price": 331822,
+            "Price": 331822.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4248,7 +4248,7 @@
             "Lat": 32.78319647,
             "Leasing_available": true,
             "Long": -117.103453,
-            "Price": 288070,
+            "Price": 288070.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4264,7 +4264,7 @@
             "Lat": 32.77600014,
             "Leasing_available": false,
             "Long": -117.1058732,
-            "Price": 654631,
+            "Price": 654631.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4280,7 +4280,7 @@
             "Lat": 32.77373213,
             "Leasing_available": true,
             "Long": -117.1163807,
-            "Price": 505846,
+            "Price": 505846.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4296,7 +4296,7 @@
             "Lat": 32.7900673,
             "Leasing_available": true,
             "Long": -117.1140491,
-            "Price": 959826,
+            "Price": 959826.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4312,7 +4312,7 @@
             "Lat": 32.78870352,
             "Leasing_available": false,
             "Long": -117.1186833,
-            "Price": 713604,
+            "Price": 713604.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4328,7 +4328,7 @@
             "Lat": 32.79011913,
             "Leasing_available": true,
             "Long": -117.1135176,
-            "Price": 734436,
+            "Price": 734436.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4344,7 +4344,7 @@
             "Lat": 32.78408739,
             "Leasing_available": true,
             "Long": -117.1035699,
-            "Price": 582018,
+            "Price": 582018.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4360,7 +4360,7 @@
             "Lat": 32.77324432,
             "Leasing_available": true,
             "Long": -117.1124279,
-            "Price": 91074,
+            "Price": 91074.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4376,7 +4376,7 @@
             "Lat": 32.78120402,
             "Leasing_available": false,
             "Long": -117.1231608,
-            "Price": 315777,
+            "Price": 315777.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4388,11 +4388,11 @@
             "Address": "5324 Canterbury Dr",
             "Area": 1213,
             "Distance_to_center": 0.9391656290585175,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77412256,
             "Leasing_available": true,
             "Long": -117.1086426,
-            "Price": 904891,
+            "Price": 904891.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4408,7 +4408,7 @@
             "Lat": 32.77352195,
             "Leasing_available": true,
             "Long": -117.1104513,
-            "Price": 942984,
+            "Price": 942984.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4420,11 +4420,11 @@
             "Address": "5880 Fairmount Ave",
             "Area": 786,
             "Distance_to_center": 0.942341004739906,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78110974,
             "Leasing_available": false,
             "Long": -117.1031238,
-            "Price": 298540,
+            "Price": 298540.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4440,7 +4440,7 @@
             "Lat": 32.78822362,
             "Leasing_available": true,
             "Long": -117.1196661,
-            "Price": 359470,
+            "Price": 359470.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4456,7 +4456,7 @@
             "Lat": 32.77377156,
             "Leasing_available": false,
             "Long": -117.1170291,
-            "Price": 677653,
+            "Price": 677653.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4472,7 +4472,7 @@
             "Lat": 32.78320857,
             "Leasing_available": true,
             "Long": -117.1231756,
-            "Price": 644741,
+            "Price": 644741.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4488,7 +4488,7 @@
             "Lat": 32.77550926,
             "Leasing_available": false,
             "Long": -117.1202667,
-            "Price": 846213,
+            "Price": 846213.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4504,7 +4504,7 @@
             "Lat": 32.77707883,
             "Leasing_available": false,
             "Long": -117.1217875,
-            "Price": 328671,
+            "Price": 328671.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4520,7 +4520,7 @@
             "Lat": 32.77557692,
             "Leasing_available": false,
             "Long": -117.1203674,
-            "Price": 352601,
+            "Price": 352601.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4536,7 +4536,7 @@
             "Lat": 32.77465191,
             "Leasing_available": true,
             "Long": -117.1190925,
-            "Price": 760973,
+            "Price": 760973.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4552,7 +4552,7 @@
             "Lat": 32.78482763,
             "Leasing_available": true,
             "Long": -117.1226953,
-            "Price": 990642,
+            "Price": 990642.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4568,7 +4568,7 @@
             "Lat": 32.7889739,
             "Leasing_available": false,
             "Long": -117.1076088,
-            "Price": 528040,
+            "Price": 528040.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4584,7 +4584,7 @@
             "Lat": 32.79036895,
             "Leasing_available": true,
             "Long": -117.1126311,
-            "Price": 802827,
+            "Price": 802827.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4600,7 +4600,7 @@
             "Lat": 32.78822758,
             "Leasing_available": false,
             "Long": -117.1200176,
-            "Price": 923998,
+            "Price": 923998.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4616,7 +4616,7 @@
             "Lat": 32.77770733,
             "Leasing_available": false,
             "Long": -117.1223832,
-            "Price": 720888,
+            "Price": 720888.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4632,7 +4632,7 @@
             "Lat": 32.78351129,
             "Leasing_available": true,
             "Long": -117.1233177,
-            "Price": 140196,
+            "Price": 140196.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4644,11 +4644,11 @@
             "Address": "4242 Camino del Rio N",
             "Area": 1047,
             "Distance_to_center": 0.9755209303408688,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77962857,
             "Leasing_available": false,
             "Long": -117.1030347,
-            "Price": 40158,
+            "Price": 40158.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4664,7 +4664,7 @@
             "Lat": 32.77534271,
             "Leasing_available": false,
             "Long": -117.120422,
-            "Price": 989375,
+            "Price": 989375.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4680,7 +4680,7 @@
             "Lat": 32.7860931,
             "Leasing_available": false,
             "Long": -117.1040523,
-            "Price": 621803,
+            "Price": 621803.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4692,11 +4692,11 @@
             "Address": "3420 Camino del Rio N",
             "Area": 622,
             "Distance_to_center": 0.9855624478701321,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77730224,
             "Leasing_available": false,
             "Long": -117.122313,
-            "Price": 787925,
+            "Price": 787925.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4712,7 +4712,7 @@
             "Lat": 32.78754711,
             "Leasing_available": true,
             "Long": -117.1211001,
-            "Price": 137748,
+            "Price": 137748.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4728,7 +4728,7 @@
             "Lat": 32.77297538,
             "Leasing_available": true,
             "Long": -117.1154666,
-            "Price": 932539,
+            "Price": 932539.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4744,7 +4744,7 @@
             "Lat": 32.77483444,
             "Leasing_available": false,
             "Long": -117.1063854,
-            "Price": 782682,
+            "Price": 782682.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4760,7 +4760,7 @@
             "Lat": 32.79004836,
             "Leasing_available": true,
             "Long": -117.1093369,
-            "Price": 395403,
+            "Price": 395403.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4776,7 +4776,7 @@
             "Lat": 32.77941939,
             "Leasing_available": false,
             "Long": -117.1028837,
-            "Price": 261042,
+            "Price": 261042.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -4792,7 +4792,7 @@
             "Lat": 32.77651127,
             "Leasing_available": true,
             "Long": -117.1219097,
-            "Price": 68381,
+            "Price": 68381.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4808,7 +4808,7 @@
             "Lat": 32.78873374,
             "Leasing_available": false,
             "Long": -117.1198523,
-            "Price": 414079,
+            "Price": 414079.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4824,7 +4824,7 @@
             "Lat": 32.77403401,
             "Leasing_available": true,
             "Long": -117.1188657,
-            "Price": 68543,
+            "Price": 68543.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4840,7 +4840,7 @@
             "Lat": 32.78509198,
             "Leasing_available": true,
             "Long": -117.1032447,
-            "Price": 219856,
+            "Price": 219856.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4856,7 +4856,7 @@
             "Lat": 32.78681666,
             "Leasing_available": true,
             "Long": -117.1219953,
-            "Price": 531291,
+            "Price": 531291.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4872,7 +4872,7 @@
             "Lat": 32.77267546,
             "Leasing_available": true,
             "Long": -117.1119802,
-            "Price": 959524,
+            "Price": 959524.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4888,7 +4888,7 @@
             "Lat": 32.77392775,
             "Leasing_available": true,
             "Long": -117.1075956,
-            "Price": 558024,
+            "Price": 558024.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4904,7 +4904,7 @@
             "Lat": 32.77350463,
             "Leasing_available": true,
             "Long": -117.1178133,
-            "Price": 479327,
+            "Price": 479327.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4920,7 +4920,7 @@
             "Lat": 32.77265963,
             "Leasing_available": true,
             "Long": -117.111865,
-            "Price": 705981,
+            "Price": 705981.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4936,7 +4936,7 @@
             "Lat": 32.78891469,
             "Leasing_available": true,
             "Long": -117.1066338,
-            "Price": 217759,
+            "Price": 217759.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4952,7 +4952,7 @@
             "Lat": 32.77362669,
             "Leasing_available": true,
             "Long": -117.1080685,
-            "Price": 452358,
+            "Price": 452358.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4968,7 +4968,7 @@
             "Lat": 32.783549,
             "Leasing_available": true,
             "Long": -117.1237423,
-            "Price": 534104,
+            "Price": 534104.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -4984,7 +4984,7 @@
             "Lat": 32.77481787,
             "Leasing_available": true,
             "Long": -117.1060158,
-            "Price": 738485,
+            "Price": 738485.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5000,7 +5000,7 @@
             "Lat": 32.77323411,
             "Leasing_available": true,
             "Long": -117.1172971,
-            "Price": 911004,
+            "Price": 911004.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5016,7 +5016,7 @@
             "Lat": 32.78785415,
             "Leasing_available": true,
             "Long": -117.1211935,
-            "Price": 745705,
+            "Price": 745705.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5032,7 +5032,7 @@
             "Lat": 32.79036273,
             "Leasing_available": true,
             "Long": -117.1096405,
-            "Price": 236867,
+            "Price": 236867.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5048,7 +5048,7 @@
             "Lat": 32.77264121,
             "Leasing_available": false,
             "Long": -117.1112757,
-            "Price": 418145,
+            "Price": 418145.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5064,7 +5064,7 @@
             "Lat": 32.78076259,
             "Leasing_available": true,
             "Long": -117.1023165,
-            "Price": 627550,
+            "Price": 627550.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5080,7 +5080,7 @@
             "Lat": 32.78264597,
             "Leasing_available": false,
             "Long": -117.1240012,
-            "Price": 724649,
+            "Price": 724649.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5096,7 +5096,7 @@
             "Lat": 32.79083327,
             "Leasing_available": false,
             "Long": -117.1143975,
-            "Price": 113627,
+            "Price": 113627.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5112,7 +5112,7 @@
             "Lat": 32.77283013,
             "Leasing_available": false,
             "Long": -117.1100806,
-            "Price": 286144,
+            "Price": 286144.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5128,7 +5128,7 @@
             "Lat": 32.78893137,
             "Leasing_available": false,
             "Long": -117.1063926,
-            "Price": 996740,
+            "Price": 996740.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5144,7 +5144,7 @@
             "Lat": 32.79084711,
             "Leasing_available": false,
             "Long": -117.1115996,
-            "Price": 308666,
+            "Price": 308666.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5160,7 +5160,7 @@
             "Lat": 32.78261027,
             "Leasing_available": false,
             "Long": -117.1240935,
-            "Price": 918101,
+            "Price": 918101.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5176,7 +5176,7 @@
             "Lat": 32.78848708,
             "Leasing_available": false,
             "Long": -117.1056619,
-            "Price": 854332,
+            "Price": 854332.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5192,7 +5192,7 @@
             "Lat": 32.79053792,
             "Leasing_available": false,
             "Long": -117.1165436,
-            "Price": 430176,
+            "Price": 430176.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5208,7 +5208,7 @@
             "Lat": 32.7793513,
             "Leasing_available": true,
             "Long": -117.1238511,
-            "Price": 82536,
+            "Price": 82536.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5220,11 +5220,11 @@
             "Address": "5351 Palisades Rd",
             "Area": 1877,
             "Distance_to_center": 1.037582126956828,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77561804,
             "Leasing_available": true,
             "Long": -117.1047264,
-            "Price": 918604,
+            "Price": 918604.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5240,7 +5240,7 @@
             "Lat": 32.77660795,
             "Leasing_available": false,
             "Long": -117.1038113,
-            "Price": 731297,
+            "Price": 731297.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5256,7 +5256,7 @@
             "Lat": 32.77314598,
             "Leasing_available": true,
             "Long": -117.1178421,
-            "Price": 981127,
+            "Price": 981127.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5272,7 +5272,7 @@
             "Lat": 32.77343302,
             "Leasing_available": false,
             "Long": -117.1077916,
-            "Price": 888480,
+            "Price": 888480.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5288,7 +5288,7 @@
             "Lat": 32.78803043,
             "Leasing_available": false,
             "Long": -117.1049063,
-            "Price": 257035,
+            "Price": 257035.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5304,7 +5304,7 @@
             "Lat": 32.7879794,
             "Leasing_available": false,
             "Long": -117.1048264,
-            "Price": 574021,
+            "Price": 574021.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5320,7 +5320,7 @@
             "Lat": 32.77671469,
             "Leasing_available": false,
             "Long": -117.1036425,
-            "Price": 794717,
+            "Price": 794717.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5336,7 +5336,7 @@
             "Lat": 32.78063552,
             "Leasing_available": true,
             "Long": -117.1243053,
-            "Price": 963754,
+            "Price": 963754.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5352,7 +5352,7 @@
             "Lat": 32.77338742,
             "Leasing_available": false,
             "Long": -117.1077408,
-            "Price": 356069,
+            "Price": 356069.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5368,7 +5368,7 @@
             "Lat": 32.79104719,
             "Leasing_available": true,
             "Long": -117.1113787,
-            "Price": 93896,
+            "Price": 93896.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5380,11 +5380,11 @@
             "Address": "6437 Reflection Dr",
             "Area": 1978,
             "Distance_to_center": 1.0519223102417417,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.7907435,
             "Leasing_available": false,
             "Long": -117.1098385,
-            "Price": 518428,
+            "Price": 518428.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5400,7 +5400,7 @@
             "Lat": 32.78124861,
             "Leasing_available": true,
             "Long": -117.1244022,
-            "Price": 426445,
+            "Price": 426445.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5416,7 +5416,7 @@
             "Lat": 32.78334179,
             "Leasing_available": false,
             "Long": -117.1242441,
-            "Price": 298972,
+            "Price": 298972.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5432,7 +5432,7 @@
             "Lat": 32.77341105,
             "Leasing_available": true,
             "Long": -117.1075739,
-            "Price": 471586,
+            "Price": 471586.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5448,7 +5448,7 @@
             "Lat": 32.77497443,
             "Leasing_available": false,
             "Long": -117.1051431,
-            "Price": 678608,
+            "Price": 678608.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5464,7 +5464,7 @@
             "Lat": 32.78398854,
             "Leasing_available": false,
             "Long": -117.1022103,
-            "Price": 262847,
+            "Price": 262847.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5480,7 +5480,7 @@
             "Lat": 32.79048538,
             "Leasing_available": true,
             "Long": -117.1175018,
-            "Price": 625730,
+            "Price": 625730.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5496,7 +5496,7 @@
             "Lat": 32.78308722,
             "Leasing_available": true,
             "Long": -117.101964,
-            "Price": 485928,
+            "Price": 485928.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5512,7 +5512,7 @@
             "Lat": 32.78301486,
             "Leasing_available": false,
             "Long": -117.124401,
-            "Price": 318749,
+            "Price": 318749.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5524,11 +5524,11 @@
             "Address": "3333 Camino del Rio S",
             "Area": 1679,
             "Distance_to_center": 1.065794286994898,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77541624,
             "Leasing_available": true,
             "Long": -117.121785,
-            "Price": 698973,
+            "Price": 698973.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5544,7 +5544,7 @@
             "Lat": 32.77771278,
             "Leasing_available": true,
             "Long": -117.1235232,
-            "Price": 832471,
+            "Price": 832471.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5560,7 +5560,7 @@
             "Lat": 32.7738179,
             "Leasing_available": true,
             "Long": -117.1197069,
-            "Price": 593894,
+            "Price": 593894.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5576,7 +5576,7 @@
             "Lat": 32.77633358,
             "Leasing_available": true,
             "Long": -117.1226226,
-            "Price": 330384,
+            "Price": 330384.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5592,7 +5592,7 @@
             "Lat": 32.79080122,
             "Leasing_available": true,
             "Long": -117.1094924,
-            "Price": 443141,
+            "Price": 443141.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5608,7 +5608,7 @@
             "Lat": 32.79090685,
             "Leasing_available": true,
             "Long": -117.1164397,
-            "Price": 249738,
+            "Price": 249738.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5620,11 +5620,11 @@
             "Address": "Stadium Rd",
             "Area": 734,
             "Distance_to_center": 1.068480243518553,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78247667,
             "Leasing_available": false,
             "Long": -117.1245263,
-            "Price": 631173,
+            "Price": 631173.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5640,7 +5640,7 @@
             "Lat": 32.77711215,
             "Leasing_available": true,
             "Long": -117.1031077,
-            "Price": 92311,
+            "Price": 92311.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5656,7 +5656,7 @@
             "Lat": 32.77682081,
             "Leasing_available": true,
             "Long": -117.1230577,
-            "Price": 543178,
+            "Price": 543178.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5672,7 +5672,7 @@
             "Lat": 32.7746771,
             "Leasing_available": false,
             "Long": -117.1052247,
-            "Price": 370146,
+            "Price": 370146.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5688,7 +5688,7 @@
             "Lat": 32.77780833,
             "Leasing_available": false,
             "Long": -117.1237093,
-            "Price": 367733,
+            "Price": 367733.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5704,7 +5704,7 @@
             "Lat": 32.78932582,
             "Leasing_available": false,
             "Long": -117.1202705,
-            "Price": 170418,
+            "Price": 170418.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5720,7 +5720,7 @@
             "Lat": 32.77617387,
             "Leasing_available": false,
             "Long": -117.1226533,
-            "Price": 804227,
+            "Price": 804227.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5736,7 +5736,7 @@
             "Lat": 32.77581135,
             "Leasing_available": true,
             "Long": -117.1223654,
-            "Price": 820413,
+            "Price": 820413.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5752,7 +5752,7 @@
             "Lat": 32.77604824,
             "Leasing_available": false,
             "Long": -117.1226092,
-            "Price": 841764,
+            "Price": 841764.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5768,7 +5768,7 @@
             "Lat": 32.78833324,
             "Leasing_available": true,
             "Long": -117.1046567,
-            "Price": 546704,
+            "Price": 546704.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5784,7 +5784,7 @@
             "Lat": 32.79101371,
             "Leasing_available": false,
             "Long": -117.1096533,
-            "Price": 687978,
+            "Price": 687978.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5800,7 +5800,7 @@
             "Lat": 32.78260496,
             "Leasing_available": false,
             "Long": -117.1247006,
-            "Price": 756413,
+            "Price": 756413.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5816,7 +5816,7 @@
             "Lat": 32.77247908,
             "Leasing_available": false,
             "Long": -117.1091825,
-            "Price": 147989,
+            "Price": 147989.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5828,11 +5828,11 @@
             "Address": "5125 35th St",
             "Area": 1589,
             "Distance_to_center": 1.087933742697437,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77217,
             "Leasing_available": false,
             "Long": -117.1159973,
-            "Price": 835107,
+            "Price": 835107.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5848,7 +5848,7 @@
             "Lat": 32.78899569,
             "Leasing_available": false,
             "Long": -117.1209159,
-            "Price": 823988,
+            "Price": 823988.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5864,7 +5864,7 @@
             "Lat": 32.79154227,
             "Leasing_available": false,
             "Long": -117.1127115,
-            "Price": 496589,
+            "Price": 496589.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5880,7 +5880,7 @@
             "Lat": 32.78136889,
             "Leasing_available": false,
             "Long": -117.1014698,
-            "Price": 142813,
+            "Price": 142813.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5896,7 +5896,7 @@
             "Lat": 32.77179932,
             "Leasing_available": true,
             "Long": -117.113317,
-            "Price": 792076,
+            "Price": 792076.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5912,7 +5912,7 @@
             "Lat": 32.77695528,
             "Leasing_available": true,
             "Long": -117.1234449,
-            "Price": 396430,
+            "Price": 396430.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5928,7 +5928,7 @@
             "Lat": 32.77198943,
             "Leasing_available": true,
             "Long": -117.1155579,
-            "Price": 971313,
+            "Price": 971313.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5944,7 +5944,7 @@
             "Lat": 32.78598739,
             "Leasing_available": false,
             "Long": -117.1025614,
-            "Price": 766779,
+            "Price": 766779.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -5960,7 +5960,7 @@
             "Lat": 32.78833663,
             "Leasing_available": false,
             "Long": -117.1219532,
-            "Price": 334245,
+            "Price": 334245.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5976,7 +5976,7 @@
             "Lat": 32.77289601,
             "Leasing_available": false,
             "Long": -117.1188366,
-            "Price": 198644,
+            "Price": 198644.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -5992,7 +5992,7 @@
             "Lat": 32.7875811,
             "Leasing_available": true,
             "Long": -117.1035673,
-            "Price": 612912,
+            "Price": 612912.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6008,7 +6008,7 @@
             "Lat": 32.77269208,
             "Leasing_available": false,
             "Long": -117.107821,
-            "Price": 344097,
+            "Price": 344097.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6024,7 +6024,7 @@
             "Lat": 32.79097568,
             "Leasing_available": false,
             "Long": -117.1085444,
-            "Price": 423412,
+            "Price": 423412.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6040,7 +6040,7 @@
             "Lat": 32.7729668,
             "Leasing_available": false,
             "Long": -117.1071678,
-            "Price": 360690,
+            "Price": 360690.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6056,7 +6056,7 @@
             "Lat": 32.77767937,
             "Leasing_available": false,
             "Long": -117.1241197,
-            "Price": 597581,
+            "Price": 597581.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6072,7 +6072,7 @@
             "Lat": 32.79114396,
             "Leasing_available": false,
             "Long": -117.1089905,
-            "Price": 287404,
+            "Price": 287404.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6088,7 +6088,7 @@
             "Lat": 32.78325252,
             "Leasing_available": false,
             "Long": -117.1013509,
-            "Price": 948750,
+            "Price": 948750.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6104,7 +6104,7 @@
             "Lat": 32.78340742,
             "Leasing_available": true,
             "Long": -117.1013794,
-            "Price": 195572,
+            "Price": 195572.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6120,7 +6120,7 @@
             "Lat": 32.77212563,
             "Leasing_available": true,
             "Long": -117.1170451,
-            "Price": 99280,
+            "Price": 99280.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6136,7 +6136,7 @@
             "Lat": 32.79032743,
             "Leasing_available": false,
             "Long": -117.1193935,
-            "Price": 850549,
+            "Price": 850549.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6152,7 +6152,7 @@
             "Lat": 32.78988529,
             "Leasing_available": true,
             "Long": -117.1201961,
-            "Price": 955120,
+            "Price": 955120.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6168,7 +6168,7 @@
             "Lat": 32.771957,
             "Leasing_available": true,
             "Long": -117.1098041,
-            "Price": 575381,
+            "Price": 575381.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6184,7 +6184,7 @@
             "Lat": 32.79022445,
             "Leasing_available": true,
             "Long": -117.1067093,
-            "Price": 190695,
+            "Price": 190695.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6200,7 +6200,7 @@
             "Lat": 32.78434333,
             "Leasing_available": false,
             "Long": -117.1015072,
-            "Price": 643422,
+            "Price": 643422.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6216,7 +6216,7 @@
             "Lat": 32.77402494,
             "Leasing_available": false,
             "Long": -117.121134,
-            "Price": 666045,
+            "Price": 666045.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6232,7 +6232,7 @@
             "Lat": 32.77853179,
             "Leasing_available": false,
             "Long": -117.1016434,
-            "Price": 288878,
+            "Price": 288878.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6248,7 +6248,7 @@
             "Lat": 32.77215384,
             "Leasing_available": true,
             "Long": -117.1176143,
-            "Price": 629983,
+            "Price": 629983.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6264,7 +6264,7 @@
             "Lat": 32.77484401,
             "Leasing_available": true,
             "Long": -117.1221912,
-            "Price": 653709,
+            "Price": 653709.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6280,7 +6280,7 @@
             "Lat": 32.78830341,
             "Leasing_available": false,
             "Long": -117.1224207,
-            "Price": 550990,
+            "Price": 550990.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6296,7 +6296,7 @@
             "Lat": 32.77350876,
             "Leasing_available": true,
             "Long": -117.1058157,
-            "Price": 275803,
+            "Price": 275803.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6312,7 +6312,7 @@
             "Lat": 32.78125048,
             "Leasing_available": false,
             "Long": -117.1252975,
-            "Price": 866869,
+            "Price": 866869.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6328,7 +6328,7 @@
             "Lat": 32.77379002,
             "Leasing_available": false,
             "Long": -117.1053795,
-            "Price": 838689,
+            "Price": 838689.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6344,7 +6344,7 @@
             "Lat": 32.79125626,
             "Leasing_available": false,
             "Long": -117.1175737,
-            "Price": 120748,
+            "Price": 120748.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6360,7 +6360,7 @@
             "Lat": 32.78555499,
             "Leasing_available": false,
             "Long": -117.1018883,
-            "Price": 361229,
+            "Price": 361229.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6376,7 +6376,7 @@
             "Lat": 32.77202463,
             "Leasing_available": true,
             "Long": -117.1089828,
-            "Price": 423435,
+            "Price": 423435.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6392,7 +6392,7 @@
             "Lat": 32.79188278,
             "Leasing_available": true,
             "Long": -117.1116161,
-            "Price": 724677,
+            "Price": 724677.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6408,7 +6408,7 @@
             "Lat": 32.77200881,
             "Leasing_available": false,
             "Long": -117.1173347,
-            "Price": 813608,
+            "Price": 813608.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6424,7 +6424,7 @@
             "Lat": 32.77471206,
             "Leasing_available": true,
             "Long": -117.1221389,
-            "Price": 73641,
+            "Price": 73641.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6440,7 +6440,7 @@
             "Lat": 32.78850691,
             "Leasing_available": true,
             "Long": -117.1039778,
-            "Price": 464161,
+            "Price": 464161.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6456,7 +6456,7 @@
             "Lat": 32.7918727,
             "Leasing_available": true,
             "Long": -117.1110581,
-            "Price": 651314,
+            "Price": 651314.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6472,7 +6472,7 @@
             "Lat": 32.77926485,
             "Leasing_available": false,
             "Long": -117.1250734,
-            "Price": 538976,
+            "Price": 538976.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6488,7 +6488,7 @@
             "Lat": 32.79110186,
             "Leasing_available": true,
             "Long": -117.1080629,
-            "Price": 517407,
+            "Price": 517407.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6504,7 +6504,7 @@
             "Lat": 32.78963079,
             "Leasing_available": false,
             "Long": -117.1052971,
-            "Price": 302135,
+            "Price": 302135.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6516,11 +6516,11 @@
             "Address": "Alvarado Canyon Rd",
             "Area": 1885,
             "Distance_to_center": 1.1516835074865952,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77984552,
             "Leasing_available": false,
             "Long": -117.1010603,
-            "Price": 765054,
+            "Price": 765054.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6536,7 +6536,7 @@
             "Lat": 32.77195927,
             "Leasing_available": false,
             "Long": -117.1175619,
-            "Price": 656818,
+            "Price": 656818.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6552,7 +6552,7 @@
             "Lat": 32.77130777,
             "Leasing_available": false,
             "Long": -117.1143111,
-            "Price": 257999,
+            "Price": 257999.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6568,7 +6568,7 @@
             "Lat": 32.77135694,
             "Leasing_available": false,
             "Long": -117.1114938,
-            "Price": 466379,
+            "Price": 466379.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6584,7 +6584,7 @@
             "Lat": 32.78091172,
             "Leasing_available": false,
             "Long": -117.1008467,
-            "Price": 178202,
+            "Price": 178202.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6600,7 +6600,7 @@
             "Lat": 32.77277371,
             "Leasing_available": false,
             "Long": -117.106734,
-            "Price": 599581,
+            "Price": 599581.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6616,7 +6616,7 @@
             "Lat": 32.79148027,
             "Leasing_available": false,
             "Long": -117.1088271,
-            "Price": 569896,
+            "Price": 569896.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6632,7 +6632,7 @@
             "Lat": 32.7712222,
             "Leasing_available": false,
             "Long": -117.1134794,
-            "Price": 563918,
+            "Price": 563918.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6648,7 +6648,7 @@
             "Lat": 32.78861044,
             "Leasing_available": false,
             "Long": -117.1224799,
-            "Price": 230501,
+            "Price": 230501.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6664,7 +6664,7 @@
             "Lat": 32.7918835,
             "Leasing_available": true,
             "Long": -117.1160422,
-            "Price": 896088,
+            "Price": 896088.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6680,7 +6680,7 @@
             "Lat": 32.77954529,
             "Leasing_available": true,
             "Long": -117.1009496,
-            "Price": 214903,
+            "Price": 214903.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6696,7 +6696,7 @@
             "Lat": 32.77431009,
             "Leasing_available": true,
             "Long": -117.1220693,
-            "Price": 577502,
+            "Price": 577502.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6712,7 +6712,7 @@
             "Lat": 32.79036521,
             "Leasing_available": false,
             "Long": -117.1060921,
-            "Price": 468785,
+            "Price": 468785.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6728,7 +6728,7 @@
             "Lat": 32.77169733,
             "Leasing_available": false,
             "Long": -117.1091089,
-            "Price": 553483,
+            "Price": 553483.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6744,7 +6744,7 @@
             "Lat": 32.77364713,
             "Leasing_available": false,
             "Long": -117.1050358,
-            "Price": 716011,
+            "Price": 716011.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6760,7 +6760,7 @@
             "Lat": 32.78716731,
             "Leasing_available": false,
             "Long": -117.1238763,
-            "Price": 493508,
+            "Price": 493508.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6776,7 +6776,7 @@
             "Lat": 32.77107525,
             "Leasing_available": false,
             "Long": -117.1128028,
-            "Price": 420339,
+            "Price": 420339.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6792,7 +6792,7 @@
             "Lat": 32.79157861,
             "Leasing_available": false,
             "Long": -117.1086035,
-            "Price": 538885,
+            "Price": 538885.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6808,7 +6808,7 @@
             "Lat": 32.78865488,
             "Leasing_available": false,
             "Long": -117.1036736,
-            "Price": 310941,
+            "Price": 310941.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6824,7 +6824,7 @@
             "Lat": 32.78254174,
             "Leasing_available": true,
             "Long": -117.1256948,
-            "Price": 558519,
+            "Price": 558519.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6836,11 +6836,11 @@
             "Address": "4370 Alvarado Canyon Rd",
             "Area": 1295,
             "Distance_to_center": 1.1801052407586399,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78032791,
             "Leasing_available": false,
             "Long": -117.1006655,
-            "Price": 624462,
+            "Price": 624462.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6856,7 +6856,7 @@
             "Lat": 32.77880602,
             "Leasing_available": false,
             "Long": -117.1253152,
-            "Price": 299694,
+            "Price": 299694.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6868,11 +6868,11 @@
             "Address": "4285 Camino del Rio S",
             "Area": 1536,
             "Distance_to_center": 1.1863323252959708,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77761441,
             "Leasing_available": true,
             "Long": -117.1014482,
-            "Price": 335766,
+            "Price": 335766.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6888,7 +6888,7 @@
             "Lat": 32.79233622,
             "Leasing_available": false,
             "Long": -117.1118392,
-            "Price": 620740,
+            "Price": 620740.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6904,7 +6904,7 @@
             "Lat": 32.77506587,
             "Leasing_available": false,
             "Long": -117.1231361,
-            "Price": 230356,
+            "Price": 230356.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6920,7 +6920,7 @@
             "Lat": 32.77161695,
             "Leasing_available": true,
             "Long": -117.1088118,
-            "Price": 636034,
+            "Price": 636034.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -6936,7 +6936,7 @@
             "Lat": 32.78351698,
             "Leasing_available": false,
             "Long": -117.1256698,
-            "Price": 406318,
+            "Price": 406318.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6952,7 +6952,7 @@
             "Lat": 32.78768494,
             "Leasing_available": false,
             "Long": -117.1025681,
-            "Price": 834650,
+            "Price": 834650.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6968,7 +6968,7 @@
             "Lat": 32.77927379,
             "Leasing_available": true,
             "Long": -117.1256253,
-            "Price": 222292,
+            "Price": 222292.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6984,7 +6984,7 @@
             "Lat": 32.77687883,
             "Leasing_available": false,
             "Long": -117.1017044,
-            "Price": 545793,
+            "Price": 545793.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -6996,11 +6996,11 @@
             "Address": "5933 Fairmount Ave",
             "Area": 1968,
             "Distance_to_center": 1.2000922614762815,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.7833126,
             "Leasing_available": true,
             "Long": -117.1004956,
-            "Price": 172155,
+            "Price": 172155.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7016,7 +7016,7 @@
             "Lat": 32.77447912,
             "Leasing_available": false,
             "Long": -117.1035659,
-            "Price": 626558,
+            "Price": 626558.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7032,7 +7032,7 @@
             "Lat": 32.78418242,
             "Leasing_available": true,
             "Long": -117.1256598,
-            "Price": 686763,
+            "Price": 686763.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7048,7 +7048,7 @@
             "Lat": 32.77388449,
             "Leasing_available": true,
             "Long": -117.104225,
-            "Price": 627059,
+            "Price": 627059.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7064,7 +7064,7 @@
             "Lat": 32.77292586,
             "Leasing_available": true,
             "Long": -117.1207725,
-            "Price": 660571,
+            "Price": 660571.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7080,7 +7080,7 @@
             "Lat": 32.77146666,
             "Leasing_available": false,
             "Long": -117.117549,
-            "Price": 338936,
+            "Price": 338936.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7096,7 +7096,7 @@
             "Lat": 32.79247088,
             "Leasing_available": false,
             "Long": -117.1147345,
-            "Price": 207735,
+            "Price": 207735.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7108,11 +7108,11 @@
             "Address": "3536 Sydney Pl",
             "Area": 573,
             "Distance_to_center": 1.2056799105027918,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77093552,
             "Leasing_available": false,
             "Long": -117.1151028,
-            "Price": 190744,
+            "Price": 190744.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7128,7 +7128,7 @@
             "Lat": 32.79206186,
             "Leasing_available": false,
             "Long": -117.1170413,
-            "Price": 53175,
+            "Price": 53175.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7144,7 +7144,7 @@
             "Lat": 32.78036208,
             "Leasing_available": false,
             "Long": -117.1003573,
-            "Price": 903888,
+            "Price": 903888.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7160,7 +7160,7 @@
             "Lat": 32.77166147,
             "Leasing_available": true,
             "Long": -117.1182639,
-            "Price": 883520,
+            "Price": 883520.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7176,7 +7176,7 @@
             "Lat": 32.79259875,
             "Leasing_available": true,
             "Long": -117.1127791,
-            "Price": 638635,
+            "Price": 638635.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7192,7 +7192,7 @@
             "Lat": 32.79245211,
             "Leasing_available": true,
             "Long": -117.1153799,
-            "Price": 716376,
+            "Price": 716376.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7208,7 +7208,7 @@
             "Lat": 32.7921698,
             "Leasing_available": false,
             "Long": -117.116875,
-            "Price": 492713,
+            "Price": 492713.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7220,11 +7220,11 @@
             "Address": "2355 Northside Dr",
             "Area": 1562,
             "Distance_to_center": 1.2181443725041925,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78292026,
             "Leasing_available": false,
             "Long": -117.1260799,
-            "Price": 710528,
+            "Price": 710528.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7240,7 +7240,7 @@
             "Lat": 32.79092704,
             "Leasing_available": true,
             "Long": -117.106133,
-            "Price": 818025,
+            "Price": 818025.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7256,7 +7256,7 @@
             "Lat": 32.77238702,
             "Leasing_available": true,
             "Long": -117.106084,
-            "Price": 708237,
+            "Price": 708237.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7272,7 +7272,7 @@
             "Lat": 32.78883412,
             "Leasing_available": false,
             "Long": -117.1031643,
-            "Price": 290894,
+            "Price": 290894.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7288,7 +7288,7 @@
             "Lat": 32.77822354,
             "Leasing_available": true,
             "Long": -117.1007131,
-            "Price": 814036,
+            "Price": 814036.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7304,7 +7304,7 @@
             "Lat": 32.79220657,
             "Leasing_available": false,
             "Long": -117.1090866,
-            "Price": 165370,
+            "Price": 165370.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7320,7 +7320,7 @@
             "Lat": 32.79239514,
             "Leasing_available": true,
             "Long": -117.1165311,
-            "Price": 115527,
+            "Price": 115527.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7336,7 +7336,7 @@
             "Lat": 32.79276643,
             "Leasing_available": true,
             "Long": -117.1125212,
-            "Price": 272383,
+            "Price": 272383.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7352,7 +7352,7 @@
             "Lat": 32.77910624,
             "Leasing_available": false,
             "Long": -117.1259513,
-            "Price": 106381,
+            "Price": 106381.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7368,7 +7368,7 @@
             "Lat": 32.78093383,
             "Leasing_available": false,
             "Long": -117.100039,
-            "Price": 645300,
+            "Price": 645300.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7384,7 +7384,7 @@
             "Lat": 32.79279297,
             "Leasing_available": true,
             "Long": -117.113099,
-            "Price": 262436,
+            "Price": 262436.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7400,7 +7400,7 @@
             "Lat": 32.79125546,
             "Leasing_available": false,
             "Long": -117.1198684,
-            "Price": 742079,
+            "Price": 742079.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7416,7 +7416,7 @@
             "Lat": 32.78226907,
             "Leasing_available": true,
             "Long": -117.1000072,
-            "Price": 778070,
+            "Price": 778070.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7432,7 +7432,7 @@
             "Lat": 32.78105821,
             "Leasing_available": false,
             "Long": -117.1263187,
-            "Price": 678003,
+            "Price": 678003.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7448,7 +7448,7 @@
             "Lat": 32.79117358,
             "Leasing_available": true,
             "Long": -117.1062619,
-            "Price": 227989,
+            "Price": 227989.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7464,7 +7464,7 @@
             "Lat": 32.78764482,
             "Leasing_available": false,
             "Long": -117.1243156,
-            "Price": 116234,
+            "Price": 116234.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7480,7 +7480,7 @@
             "Lat": 32.7705225,
             "Leasing_available": false,
             "Long": -117.113172,
-            "Price": 474677,
+            "Price": 474677.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7492,11 +7492,11 @@
             "Address": "3588 Sydney Pl",
             "Area": 923,
             "Distance_to_center": 1.2383765701451792,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77053506,
             "Leasing_available": true,
             "Long": -117.1139306,
-            "Price": 98271,
+            "Price": 98271.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7512,7 +7512,7 @@
             "Lat": 32.77051559,
             "Leasing_available": false,
             "Long": -117.1123876,
-            "Price": 574219,
+            "Price": 574219.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7524,11 +7524,11 @@
             "Address": "5910 Mission Gorge Rd",
             "Area": 957,
             "Distance_to_center": 1.2430795061007431,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.78312882,
             "Leasing_available": true,
             "Long": -117.1000015,
-            "Price": 570725,
+            "Price": 570725.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7544,7 +7544,7 @@
             "Lat": 32.79293615,
             "Leasing_available": false,
             "Long": -117.1134063,
-            "Price": 649620,
+            "Price": 649620.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7560,7 +7560,7 @@
             "Lat": 32.79200711,
             "Leasing_available": true,
             "Long": -117.1185378,
-            "Price": 174976,
+            "Price": 174976.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7576,7 +7576,7 @@
             "Lat": 32.78303168,
             "Leasing_available": true,
             "Long": -117.1264329,
-            "Price": 683172,
+            "Price": 683172.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7592,7 +7592,7 @@
             "Lat": 32.77376218,
             "Leasing_available": false,
             "Long": -117.1036084,
-            "Price": 106776,
+            "Price": 106776.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7608,7 +7608,7 @@
             "Lat": 32.78820261,
             "Leasing_available": false,
             "Long": -117.1241054,
-            "Price": 899349,
+            "Price": 899349.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7624,7 +7624,7 @@
             "Lat": 32.79151554,
             "Leasing_available": true,
             "Long": -117.1197861,
-            "Price": 443254,
+            "Price": 443254.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7640,7 +7640,7 @@
             "Lat": 32.78033196,
             "Leasing_available": false,
             "Long": -117.0998491,
-            "Price": 876196,
+            "Price": 876196.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7656,7 +7656,7 @@
             "Lat": 32.77259883,
             "Leasing_available": true,
             "Long": -117.1051173,
-            "Price": 977809,
+            "Price": 977809.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7672,7 +7672,7 @@
             "Lat": 32.79252584,
             "Leasing_available": false,
             "Long": -117.109196,
-            "Price": 702902,
+            "Price": 702902.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7688,7 +7688,7 @@
             "Lat": 32.79162793,
             "Leasing_available": false,
             "Long": -117.1066459,
-            "Price": 88516,
+            "Price": 88516.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7704,7 +7704,7 @@
             "Lat": 32.77388988,
             "Leasing_available": false,
             "Long": -117.1229968,
-            "Price": 419092,
+            "Price": 419092.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7720,7 +7720,7 @@
             "Lat": 32.79236931,
             "Leasing_available": false,
             "Long": -117.1178865,
-            "Price": 101793,
+            "Price": 101793.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7736,7 +7736,7 @@
             "Lat": 32.7887841,
             "Leasing_available": true,
             "Long": -117.1025831,
-            "Price": 242351,
+            "Price": 242351.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7752,7 +7752,7 @@
             "Lat": 32.7929358,
             "Leasing_available": false,
             "Long": -117.1155007,
-            "Price": 663492,
+            "Price": 663492.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7768,7 +7768,7 @@
             "Lat": 32.79165462,
             "Leasing_available": false,
             "Long": -117.1064878,
-            "Price": 553175,
+            "Price": 553175.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7784,7 +7784,7 @@
             "Lat": 32.77941691,
             "Leasing_available": false,
             "Long": -117.1264781,
-            "Price": 887695,
+            "Price": 887695.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7800,7 +7800,7 @@
             "Lat": 32.77061098,
             "Leasing_available": true,
             "Long": -117.1094174,
-            "Price": 989085,
+            "Price": 989085.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7816,7 +7816,7 @@
             "Lat": 32.79256238,
             "Leasing_available": true,
             "Long": -117.1086821,
-            "Price": 261085,
+            "Price": 261085.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7832,7 +7832,7 @@
             "Lat": 32.77333386,
             "Leasing_available": true,
             "Long": -117.1037299,
-            "Price": 121714,
+            "Price": 121714.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7848,7 +7848,7 @@
             "Lat": 32.78902578,
             "Leasing_available": true,
             "Long": -117.123702,
-            "Price": 594547,
+            "Price": 594547.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7864,7 +7864,7 @@
             "Lat": 32.78839574,
             "Leasing_available": true,
             "Long": -117.1242935,
-            "Price": 768971,
+            "Price": 768971.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7880,7 +7880,7 @@
             "Lat": 32.78154767,
             "Leasing_available": true,
             "Long": -117.1268427,
-            "Price": 344626,
+            "Price": 344626.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7896,7 +7896,7 @@
             "Lat": 32.79323074,
             "Leasing_available": false,
             "Long": -117.1138442,
-            "Price": 859290,
+            "Price": 859290.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7912,7 +7912,7 @@
             "Lat": 32.78953235,
             "Leasing_available": false,
             "Long": -117.1232689,
-            "Price": 864336,
+            "Price": 864336.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7928,7 +7928,7 @@
             "Lat": 32.78315884,
             "Leasing_available": false,
             "Long": -117.0995382,
-            "Price": 477584,
+            "Price": 477584.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7944,7 +7944,7 @@
             "Lat": 32.78825761,
             "Leasing_available": true,
             "Long": -117.1018415,
-            "Price": 822940,
+            "Price": 822940.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7956,11 +7956,11 @@
             "Address": "Fairmount Ave",
             "Area": 928,
             "Distance_to_center": 1.2877193867018584,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77776396,
             "Leasing_available": false,
             "Long": -117.1002209,
-            "Price": 748686,
+            "Price": 748686.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,
@@ -7972,11 +7972,11 @@
             "Address": "3131 Camino del Rio N",
             "Area": 1946,
             "Distance_to_center": 1.2892633292538884,
-            "Image_url": NaN,
+            "Image_url": null,
             "Lat": 32.77577481,
             "Leasing_available": true,
             "Long": -117.1250119,
-            "Price": 584743,
+            "Price": 584743.0,
             "Profits": {
                 "Cafe_nearby": false,
                 "Cinema_nearby": false,
@@ -7992,7 +7992,7 @@
             "Lat": 32.78069509,
             "Leasing_available": false,
             "Long": -117.1268756,
-            "Price": 526257,
+            "Price": 526257.0,
             "Profits": {
                 "Cafe_nearby": true,
                 "Cinema_nearby": false,

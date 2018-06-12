@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-import numpy as np
 import os
 import pandas as pd
 from get_real_estate import get_real_estate
@@ -19,18 +18,9 @@ db = SQLAlchemy(app)
 import models
 
 
+DATA = (pd.read_sql_query('select * from tb_apartments', os.environ['DEV_DATABASE_URL'])
+        .set_index('tb_apartment_id'))
 
-#DATA = pd.read_sql_query('select * from tb_apartments', os.environ['DEV_DATABASE_URL']).set_index('tb_apartment_id')
-DATA = pd.read_excel(r'C:\Users\machine\PycharmProjects\real_estate_recommender\main_data.xlsx').set_index('tb_apartment_id')
-
-# @app.route('/api/destination/dev', methods=['GET', 'POST'])
-# def dev():
-#     # to get all apartments uncomment the following code
-#     # db.session.query(models.Apartment).all()
-#     if request.method == 'POST':
-#         return midpoint(request.get_json())
-#     else:
-#         return 'Real estate filtrator [DEV]'
 
 @app.route('/api/destination/prod', methods=['GET', 'POST'])
 def prod():
