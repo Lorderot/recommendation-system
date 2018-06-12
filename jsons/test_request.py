@@ -10,6 +10,7 @@ request_header = {
     'Content-Type': 'application/json',
     'Accept': 'application/json'
 }
+
 st = clock()
 resp = requests.post('http://127.0.0.1:3210/api/destination/prod', data=json.dumps(json_data), headers=request_header)
 with open('\output.json', 'w') as json_file:
