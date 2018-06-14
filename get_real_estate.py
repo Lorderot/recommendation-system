@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
-from geopy.geocoders import Nominatim
-from geopy import distance, Point
+import postgresql
 from flask import jsonify
+from geopy import distance, Point
+from geopy.geocoders import Nominatim
 from shapely.geometry import Point as shPoint
-
 
 CITY_CENTERS = {
     'SAN DIEGO': {
@@ -22,6 +22,8 @@ CITY_AVG_SPEED = {
 }
 SQR_METERS_PER_PERSON = 150.
 
+use_postgres_driver = True
+
 
 def address_to_coords(address_raw):
     if pd.notnull(address_raw):
@@ -38,7 +40,7 @@ def midpoint(POLYGONS_DICT, json_data):
     geolocs.extend(json_data['Coordinates'])
     valid_coords = [
         loc for loc in geolocs if (POLYGONS_DICT[city].contains(shPoint(loc['Longitude'], loc['Latitude']))
-                                   if city in POLYGONS_DICT.keys() else False)
+        if city in POLYGONS_DICT.keys() else False)
     ]
     if valid_coords:
         resp = {
@@ -84,12 +86,18 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
                                      N_best=N_best)
         from time import clock
         st = clock()
+        best_re = pd.DataFrame()
         try:
-            best_re = pd.read_sql_query(request_fmt, db_engine)
+            if not use_postgres_driver:
+                best_re = pd.read_sql_query(request_fmt, db_engine)
+            else:
+                db = postgresql.open(db_engine)
+                get_some = db.query(request_fmt)
+                best_re = pd.DataFrame(get_some, get_some.column_names)
         except:
             resp_dict['Apartments'] = []
             return jsonify(resp_dict)
-        print(clock()-st)
+        print(clock() - st)
     else:
         if not real_est_df.empty:
             sub_df = real_est_df[real_est_df['city'].str.upper() == json_data['City']]
