@@ -29,6 +29,8 @@ ADD get_real_estate.py /get_real_estate.py
 ADD server.py /server.py
 ADD models.py /models.py
 ADD jsons /jsons
+ADD pull_city_polygons.py /pull_city_polygons.py
+ADD polygons /polygons
 WORKDIR /
 RUN python3.6 -m pip install -r requirements.txt
 
