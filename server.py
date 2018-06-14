@@ -26,12 +26,12 @@ DB_ENGINE = os.environ['DEV_DATABASE_URL']
 POLYGONS_DATA_DIR = r'polygons\Polygons.shp'
 
 
-try:
-    if not RUN_UNDER_PANDAS:
-        raise Exception
-    DATA = (pd.read_sql_query('SELECT * FROM tb_apartments', DB_ENGINE).set_index('tb_apartment_id'))
-except:
-    DATA = pd.DataFrame()
+DATA = pd.DataFrame()
+if RUN_UNDER_PANDAS:
+    try:
+        DATA = (pd.read_sql_query('SELECT * FROM tb_apartments', DB_ENGINE).set_index('tb_apartment_id'))
+    except:
+        pass
 
 try:
     POLYGONS_DATA = gpd.read_file(POLYGONS_DATA_DIR)
