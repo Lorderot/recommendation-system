@@ -27,7 +27,7 @@ CHECKINS_BOUND = 20
 WORK_AND_STUDY_PCT = 0.3
 WORK_OR_STUDY_PCT = 0.4
 
-USE_POSTGRES_DRIVER = True
+USE_DB_DRIVER = True
 
 
 def address_to_coords(address_raw):
@@ -117,14 +117,21 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
                                      city=json_data['City'], is_park=int(json_data['PetsToWalkPresence']),
                                      area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
                                      N_best=N_best)
-        best_re = pd.DataFrame()
         try:
-            if not USE_POSTGRES_DRIVER:
+            if not USE_DB_DRIVER:
                 best_re = pd.read_sql_query(request_fmt, db_engine)
             else:
-                db = postgresql.open(db_engine)
+                # db = psycopg2.connect(db_engine)
+                # cursor = db.cursor()
+                # cursor.execute(request_fmt)
+                # best_re = pd.DataFrame(cursor.fetchall(),
+                #                        columns=[desc[0] for desc in cursor.description])
+                # cursor.close()
+                # db.close()
+                db = postgresql.open(db_engine.replace('postgresql', 'pq'))
                 get_some = db.query(request_fmt)
-                best_re = pd.DataFrame(get_some, get_some.column_names)
+                best_re = pd.DataFrame(get_some, columns=get_some[0].column_names)
+                db.close()
         except:
             print('DB error. Can not pull N best apartments')
             resp_dict['Apartments'] = []
