@@ -114,7 +114,7 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
     if not use_pandas:
         request = r"SELECT * FROM get_top_500_nearest({lat}, {long}, '{city}', {is_country_side}, {is_park}, {area}, {N_best})"
         request_fmt = request.format(lat=resp_dict['Center_lat'], long=resp_dict['Center_long'],
-                                     city=json_data['City'], is_country_side=int(not json_data['InCity']),
+                                     city=json_data['City'], is_country_side=(not json_data['InCity']),
                                      is_park=int(json_data['PetsToWalkPresence']),
                                      area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
                                      N_best=N_best)
@@ -141,7 +141,7 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
         if not json_data['InCity']:
             resp_dict['Center_lat'], resp_dict['Center_long'] = best_re[['latitude', 'longitude']].iloc[0].values
             request_fmt = request.format(lat=resp_dict['Center_lat'], long=resp_dict['Center_long'],
-                                         city=json_data['City'], is_country_side=0,
+                                         city=json_data['City'], is_country_side=False,
                                          is_park=int(json_data['PetsToWalkPresence']),
                                          area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
                                          N_best=N_best)
