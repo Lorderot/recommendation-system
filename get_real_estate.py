@@ -6,6 +6,7 @@ from geopy import distance, Point
 from geopy.geocoders import Nominatim
 from shapely.geometry import Point as shPoint
 
+
 CITY_CENTERS = {
     'SAN DIEGO': {
         'Latitude': 32.715736,
@@ -22,37 +23,69 @@ CITY_AVG_SPEED = {
 }
 SQR_METERS_PER_PERSON = 150.
 
-use_postgres_driver = True
+CHECKINS_BOUND = 20
+WORK_AND_STUDY_PCT = 0.3
+WORK_OR_STUDY_PCT = 0.4
+
+USE_POSTGRES_DRIVER = True
 
 
 def address_to_coords(address_raw):
     if pd.notnull(address_raw):
-        geolocator = Nominatim()
-        location = geolocator.geocode(address_raw)
-        return dict(Latitude=location.latitude, Longitude=location.longitude) if location else {}
+        try:
+            geolocator = Nominatim()
+            location = geolocator.geocode(address_raw)
+            return dict(Latitude=location.latitude, Longitude=location.longitude)
+        except:
+            return {}
     else:
         return {}
 
 
+def check_validity(polygon_dict, city, coords_list):
+    return [
+        loc for loc in coords_list if (polygon_dict[city].contains(shPoint(loc['Longitude'], loc['Latitude'])) if
+                                       city in polygon_dict.keys() else False)
+    ]
+
+
 def midpoint(POLYGONS_DICT, json_data):
     city = json_data['City']
-    geolocs = [v for k, v in json_data.items() if (k in ['Work', 'Study']) & bool(v)]
-    geolocs.extend(json_data['Coordinates'])
-    valid_coords = [
-        loc for loc in geolocs if (POLYGONS_DICT[city].contains(shPoint(loc['Longitude'], loc['Latitude']))
-        if city in POLYGONS_DICT.keys() else False)
-    ]
-    if valid_coords:
+
+    valid_checkins = check_validity(POLYGONS_DICT, city, json_data['Coordinates'])
+    geo_wk = [v for k, v in json_data.items() if (k in ['Work']) & bool(v)]
+    valid_wk = check_validity(POLYGONS_DICT, city, geo_wk)
+
+    geo_st = [v for k, v in json_data.items() if (k in ['Study']) & bool(v)]
+    valid_st = check_validity(POLYGONS_DICT, city, geo_st)
+
+    len_checkins = len(valid_checkins)
+    if len_checkins >= CHECKINS_BOUND:
+        if bool(valid_wk) & bool(valid_st):
+            ratio = int(len_checkins * WORK_AND_STUDY_PCT)
+            valid_checkins.extend(valid_wk * ratio + valid_st * ratio)
+        elif valid_wk:
+            ratio = int(len_checkins * WORK_OR_STUDY_PCT)
+            valid_checkins.extend(valid_wk * ratio)
+        elif valid_st:
+            ratio = int(len_checkins * WORK_OR_STUDY_PCT)
+            valid_checkins.extend(valid_st * ratio)
+        else:
+            pass
+    else:
+        valid_checkins.extend(valid_wk + valid_st)
+
+    if valid_checkins:
         resp = {
             'Center_' + ('lat' if k == 'Latitude' else 'long'): np.mean(
-                [loc[k] for loc in valid_coords]) for k in ['Latitude', 'Longitude']
+                [loc[k] for loc in valid_checkins]) for k in ['Latitude', 'Longitude']
         }
     else:
         resp = {
             'Center_' + ('lat' if k == 'Latitude' else 'long'): v for k, v in CITY_CENTERS.get(city, {}).items()
         }
     resp['Profits'] = {}
-    if bool(json_data['Work']) & (json_data['Work'] in valid_coords):
+    if bool(json_data['Work']) & (json_data['Work'] in valid_checkins):
         resp['Profits']['Work_distance'] = distance.distance(
             Point(json_data['Work']['Latitude'], json_data['Work']['Longitude']),
             Point(resp['Center_lat'], resp['Center_long'])).km
@@ -61,7 +94,7 @@ def midpoint(POLYGONS_DICT, json_data):
     else:
         resp['Profits']['Work_distance'] = np.nan
         resp['Profits']['Work_time'] = np.nan
-    if bool(json_data['Study']) & (json_data['Study'] in valid_coords):
+    if bool(json_data['Study']) & (json_data['Study'] in valid_checkins):
         resp['Profits']['Study_distance'] = distance.distance(
             Point(json_data['Study']['Latitude'], json_data['Study']['Longitude']),
             Point(resp['Center_lat'], resp['Center_long'])).km
@@ -84,20 +117,18 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
                                      city=json_data['City'], is_park=int(json_data['PetsToWalkPresence']),
                                      area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
                                      N_best=N_best)
-        from time import clock
-        st = clock()
         best_re = pd.DataFrame()
         try:
-            if not use_postgres_driver:
+            if not USE_POSTGRES_DRIVER:
                 best_re = pd.read_sql_query(request_fmt, db_engine)
             else:
                 db = postgresql.open(db_engine)
                 get_some = db.query(request_fmt)
                 best_re = pd.DataFrame(get_some, get_some.column_names)
         except:
+            print('DB error. Can not pull N best apartments')
             resp_dict['Apartments'] = []
             return jsonify(resp_dict)
-        print(clock() - st)
     else:
         if not real_est_df.empty:
             sub_df = real_est_df[real_est_df['city'].str.upper() == json_data['City']]
