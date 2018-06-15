@@ -49,3 +49,4 @@ class Apartment(BaseModel):
     num_of_railway_stations = db.Column('num_of_railway_stations', db.Integer, nullable=True)
     dist_to_closest_highway = db.Column('dist_to_closest_highway', db.Float, nullable=True)
     num_of_highways = db.Column('num_of_highways', db.Integer, nullable=True)
+    is_country_side = db.Column('is_country_side', db.Boolean, nullable=True)

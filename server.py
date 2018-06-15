@@ -33,6 +33,7 @@ if RUN_UNDER_PANDAS:
     except:
         pass
 
+
 try:
     POLYGONS_DATA = gpd.read_file(POLYGONS_DATA_DIR)
 except:

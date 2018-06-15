@@ -112,9 +112,10 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
     json_data['Work'] = address_to_coords(json_data['Work'])
     resp_dict = midpoint(polygons_dict, json_data)
     if not use_pandas:
-        request = r"SELECT * FROM get_top_500_nearest({lat}, {long}, '{city}', {is_park}, {area}, {N_best})"
+        request = r"SELECT * FROM get_top_500_nearest({lat}, {long}, '{city}', {is_country_side}, {is_park}, {area}, {N_best})"
         request_fmt = request.format(lat=resp_dict['Center_lat'], long=resp_dict['Center_long'],
-                                     city=json_data['City'], is_park=int(json_data['PetsToWalkPresence']),
+                                     city=json_data['City'], is_country_side=int(not json_data['InCity']),
+                                     is_park=int(json_data['PetsToWalkPresence']),
                                      area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
                                      N_best=N_best)
         try:
@@ -136,11 +137,47 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
             print('DB error. Can not pull N best apartments')
             resp_dict['Apartments'] = []
             return jsonify(resp_dict)
+
+        if not json_data['InCity']:
+            resp_dict['Center_lat'], resp_dict['Center_long'] = best_re[['latitude', 'longitude']].iloc[0].values
+            request_fmt = request.format(lat=resp_dict['Center_lat'], long=resp_dict['Center_long'],
+                                         city=json_data['City'], is_country_side=0,
+                                         is_park=int(json_data['PetsToWalkPresence']),
+                                         area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
+                                         N_best=N_best)
+            try:
+                if not USE_DB_DRIVER:
+                    best_re = pd.read_sql_query(request_fmt, db_engine)
+                else:
+                    # db = psycopg2.connect(db_engine)
+                    # cursor = db.cursor()
+                    # cursor.execute(request_fmt)
+                    # best_re = pd.DataFrame(cursor.fetchall(),
+                    #                        columns=[desc[0] for desc in cursor.description])
+                    # cursor.close()
+                    # db.close()
+                    db = postgresql.open(db_engine.replace('postgresql', 'pq'))
+                    get_some = db.query(request_fmt)
+                    best_re = pd.DataFrame(get_some, columns=get_some[0].column_names)
+                    db.close()
+            except:
+                print('DB error. Can not pull N best apartments')
+                resp_dict['Apartments'] = []
+                return jsonify(resp_dict)
     else:
         if not real_est_df.empty:
             sub_df = real_est_df[real_est_df['city'].str.upper() == json_data['City']]
-            if json_data['PetsToWalkPresence']:
-                sub_df = sub_df[sub_df['num_of_parks'] > 0]
+            if not json_data['InCity']:
+                temp_df = sub_df[sub_df['is_country_side']]
+                temp_df['distance_to_center'] = temp_df[['latitude', 'longitude']].apply(
+                    lambda x: distance.distance(Point(x['latitude'], x['longitude']),
+                                                Point(resp_dict['Center_lat'], resp_dict['Center_long'])).km
+                    if x.notnull().all() else np.NaN, axis=1)
+                resp_dict['Center_lat'], resp_dict['Center_long'] = (temp_df
+                    .sort_values(by=['distance_to_center'], ascending=1)[['latitude', 'longitude']].iloc[0].values)
+            else:
+                if json_data['PetsToWalkPresence']:
+                    sub_df = sub_df[sub_df['num_of_parks'] > 0]
             sub_df = sub_df[sub_df['size_square_feet'] >= json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON]
             sub_df['distance_to_center'] = sub_df[['latitude', 'longitude']].apply(
                 lambda x: distance.distance(Point(x['latitude'], x['longitude']),
