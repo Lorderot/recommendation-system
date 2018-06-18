@@ -17,7 +17,7 @@
             "Longitude": -117.1097226
         }
     ],
-    "InCity": true,
+    "InCity": false,
 	"PetsToWalkPresence": false,
 	"AmountOfPeopleLiving": 3
 }

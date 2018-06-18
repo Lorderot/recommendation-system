@@ -59,6 +59,12 @@ def midpoint(POLYGONS_DICT, json_data):
     geo_st = [v for k, v in json_data.items() if (k in ['Study']) & bool(v)]
     valid_st = check_validity(POLYGONS_DICT, city, geo_st)
 
+    valid_dict = {
+        'Work': valid_wk[0] if valid_wk else {},
+        'Study': valid_st[0] if valid_wk else {},
+        'Check-ins': valid_checkins
+    }
+
     len_checkins = len(valid_checkins)
     if len_checkins >= CHECKINS_BOUND:
         if bool(valid_wk) & bool(valid_st):
@@ -76,94 +82,90 @@ def midpoint(POLYGONS_DICT, json_data):
         valid_checkins.extend(valid_wk + valid_st)
 
     if valid_checkins:
-        resp = {
+        center_dict = {
             'Center_' + ('lat' if k == 'Latitude' else 'long'): np.mean(
                 [loc[k] for loc in valid_checkins]) for k in ['Latitude', 'Longitude']
         }
     else:
-        resp = {
+        center_dict = {
             'Center_' + ('lat' if k == 'Latitude' else 'long'): v for k, v in CITY_CENTERS.get(city, {}).items()
         }
-    resp['Profits'] = {}
-    if bool(json_data['Work']) & (json_data['Work'] in valid_checkins):
-        resp['Profits']['Work_distance'] = distance.distance(
-            Point(json_data['Work']['Latitude'], json_data['Work']['Longitude']),
-            Point(resp['Center_lat'], resp['Center_long'])).km
-        resp['Profits']['Work_time'] = (resp['Profits']['Work_distance'] / CITY_AVG_SPEED.get(
+    return center_dict, valid_dict
+
+def center_profits(center_dict, valid_dict, city):
+    center_dict['Profits'] = {}
+    if valid_dict['Work']:
+        center_dict['Profits']['Work_distance'] = distance.distance(
+            Point(valid_dict['Work']['Latitude'], valid_dict['Work']['Longitude']),
+            Point(center_dict['Center_lat'], center_dict['Center_long'])).km
+        center_dict['Profits']['Work_time'] = (center_dict['Profits']['Work_distance'] / CITY_AVG_SPEED.get(
             city, CITY_AVG_SPEED['SAN DIEGO']) * 60.)
     else:
-        resp['Profits']['Work_distance'] = np.nan
-        resp['Profits']['Work_time'] = np.nan
-    if bool(json_data['Study']) & (json_data['Study'] in valid_checkins):
-        resp['Profits']['Study_distance'] = distance.distance(
-            Point(json_data['Study']['Latitude'], json_data['Study']['Longitude']),
-            Point(resp['Center_lat'], resp['Center_long'])).km
-        resp['Profits']['Study_time'] = (resp['Profits']['Study_distance'] / CITY_AVG_SPEED.get(
+        center_dict['Profits']['Work_distance'] = np.nan
+        center_dict['Profits']['Work_time'] = np.nan
+    if valid_dict['Study']:
+        center_dict['Profits']['Study_distance'] = distance.distance(
+            Point(valid_dict['Study']['Latitude'], valid_dict['Study']['Longitude']),
+            Point(center_dict['Center_lat'], center_dict['Center_long'])).km
+        center_dict['Profits']['Study_time'] = (center_dict['Profits']['Study_distance'] / CITY_AVG_SPEED.get(
             city, CITY_AVG_SPEED['SAN DIEGO']) * 60.)
     else:
-        resp['Profits']['Study_distance'] = np.nan
-        resp['Profits']['Study_time'] = np.nan
-    return resp
+        center_dict['Profits']['Study_distance'] = np.nan
+        center_dict['Profits']['Study_time'] = np.nan
+    return center_dict
 
 
-def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas=False, N_best=500):
+def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas=False, output_len=500):
     json_data['City'] = json_data['City'].upper()
     json_data['Study'] = address_to_coords(json_data['Study'])
     json_data['Work'] = address_to_coords(json_data['Work'])
-    resp_dict = midpoint(polygons_dict, json_data)
+    center_dict, valid_dict = midpoint(polygons_dict, json_data)
     if not use_pandas:
-        request = r"SELECT * FROM get_top_500_nearest({lat}, {long}, '{city}', {is_country_side}, {is_park}, {area}, {N_best})"
-        request_fmt = request.format(lat=resp_dict['Center_lat'], long=resp_dict['Center_long'],
-                                     city=json_data['City'], is_country_side=(not json_data['InCity']),
-                                     is_park=int(json_data['PetsToWalkPresence']),
-                                     area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
-                                     N_best=N_best)
+        request = (r"SELECT * FROM get_nearest_apartments(" +
+                   "{lat}, {long}, '{city_to_search}', {park_count_ge}, {square_feet_ge}, {output_len}, {fake_countryside})")
+        request_fmt = request.format(lat=center_dict['Center_lat'],
+                                     long=center_dict['Center_long'],
+                                     city_to_search=json_data['City'],
+                                     park_count_ge=int(json_data['PetsToWalkPresence']),
+                                     square_feet_ge=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
+                                     output_len=output_len,
+                                     fake_countryside=(not json_data['InCity']))
         try:
             if not USE_DB_DRIVER:
                 best_re = pd.read_sql_query(request_fmt, db_engine)
             else:
-                # db = psycopg2.connect(db_engine)
-                # cursor = db.cursor()
-                # cursor.execute(request_fmt)
-                # best_re = pd.DataFrame(cursor.fetchall(),
-                #                        columns=[desc[0] for desc in cursor.description])
-                # cursor.close()
-                # db.close()
                 db = postgresql.open(db_engine.replace('postgresql', 'pq'))
                 get_some = db.query(request_fmt)
                 best_re = pd.DataFrame(get_some, columns=get_some[0].column_names)
                 db.close()
         except:
             print('DB error. Can not pull N best apartments')
-            resp_dict['Apartments'] = []
-            return jsonify(resp_dict)
+            center_dict = center_profits(center_dict, valid_dict, json_data['City'])
+            center_dict['Apartments'] = []
+            return jsonify(center_dict)
 
         if not json_data['InCity']:
-            resp_dict['Center_lat'], resp_dict['Center_long'] = best_re[['latitude', 'longitude']].iloc[0].values
-            request_fmt = request.format(lat=resp_dict['Center_lat'], long=resp_dict['Center_long'],
-                                         city=json_data['City'], is_country_side=False,
-                                         is_park=int(json_data['PetsToWalkPresence']),
-                                         area=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
-                                         N_best=N_best)
+            center_dict['Center_lat'], center_dict['Center_long'] = best_re[['latitude', 'longitude']].iloc[0].values
+            request_fmt = request.format(lat=center_dict['Center_lat'],
+                                         long=center_dict['Center_long'],
+                                         city_to_search=json_data['City'],
+                                         park_count_ge=int(json_data['PetsToWalkPresence']),
+                                         square_feet_ge=json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON,
+                                         output_len=output_len,
+                                         fake_countryside=False)
             try:
                 if not USE_DB_DRIVER:
                     best_re = pd.read_sql_query(request_fmt, db_engine)
                 else:
-                    # db = psycopg2.connect(db_engine)
-                    # cursor = db.cursor()
-                    # cursor.execute(request_fmt)
-                    # best_re = pd.DataFrame(cursor.fetchall(),
-                    #                        columns=[desc[0] for desc in cursor.description])
-                    # cursor.close()
-                    # db.close()
                     db = postgresql.open(db_engine.replace('postgresql', 'pq'))
                     get_some = db.query(request_fmt)
                     best_re = pd.DataFrame(get_some, columns=get_some[0].column_names)
                     db.close()
             except:
                 print('DB error. Can not pull N best apartments')
-                resp_dict['Apartments'] = []
-                return jsonify(resp_dict)
+                center_dict = center_profits(center_dict, valid_dict, json_data['City'])
+                center_dict['Apartments'] = []
+                return jsonify(center_dict)
     else:
         if not real_est_df.empty:
             sub_df = real_est_df[real_est_df['city'].str.upper() == json_data['City']]
@@ -171,9 +173,9 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
                 temp_df = sub_df[sub_df['is_country_side']]
                 temp_df['distance_to_center'] = temp_df[['latitude', 'longitude']].apply(
                     lambda x: distance.distance(Point(x['latitude'], x['longitude']),
-                                                Point(resp_dict['Center_lat'], resp_dict['Center_long'])).km
+                                                Point(center_dict['Center_lat'], center_dict['Center_long'])).km
                     if x.notnull().all() else np.NaN, axis=1)
-                resp_dict['Center_lat'], resp_dict['Center_long'] = (temp_df
+                center_dict['Center_lat'], center_dict['Center_long'] = (temp_df
                     .sort_values(by=['distance_to_center'], ascending=1)[['latitude', 'longitude']].iloc[0].values)
             else:
                 if json_data['PetsToWalkPresence']:
@@ -181,13 +183,15 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
             sub_df = sub_df[sub_df['size_square_feet'] >= json_data['AmountOfPeopleLiving'] * SQR_METERS_PER_PERSON]
             sub_df['distance_to_center'] = sub_df[['latitude', 'longitude']].apply(
                 lambda x: distance.distance(Point(x['latitude'], x['longitude']),
-                                            Point(resp_dict['Center_lat'], resp_dict['Center_long'])).km
+                                            Point(center_dict['Center_lat'], center_dict['Center_long'])).km
                 if x.notnull().all() else np.NaN, axis=1)
-            best_re = sub_df.sort_values(by=['distance_to_center'], ascending=1).iloc[:N_best]
+            best_re = sub_df.sort_values(by=['distance_to_center'], ascending=1).iloc[:output_len]
         else:
-            resp_dict['Apartments'] = []
-            return jsonify(resp_dict)
+            center_dict = center_profits(center_dict, valid_dict, json_data['City'])
+            center_dict['Apartments'] = []
+            return jsonify(center_dict)
 
+    center_dict = center_profits(center_dict, valid_dict, json_data['City'])
     target_to_rename = {
         'latitude': 'Lat',
         'longitude': 'Long',
@@ -213,5 +217,5 @@ def get_real_estate(real_est_df, db_engine, polygons_dict, json_data, use_pandas
         lambda x: x.astype(bool).to_dict(), axis=1)
     best_re = best_re[target_cols + ['profits']].rename(columns=target_to_rename)
     apartmets_dict = best_re.to_dict(orient='records')
-    resp_dict['Apartments'] = apartmets_dict
-    return jsonify(resp_dict)
+    center_dict['Apartments'] = apartmets_dict
+    return jsonify(center_dict)
